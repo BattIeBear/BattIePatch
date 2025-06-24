@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BattIePatch: Xenotypes Comfortable in their Skin</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.XenotypeBodyPuristFix</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+If a pawn is a body purist and has xenogenes they will have a permanent -10 "Body Purist Squeamish" moodlet. For the most part, this makes sense. If a Baseliner is injected with a xenogerm that changes them, they should be quite upset. However, if one of your starting pawns is a Hussar or if you are lucky enough to aquire a Highmate during play, it can be a pain that through a bit of bad luck you now have a pawn with a permenant penalty almost as harsh as the "depressive" trait. And this is truely permenant, there is no way to get rid of xenogenes without using other xenogenes. If a body purist spawned with a bionic eye or heart the problamatic part could be removed or replaced with a natural alternative, but when the modification is on a genetic level there is, truly, nothing that can be done.
+
+This mod takes a "have your cake and eat it too" approach. Xenotypes that are added by the basegame or by a mod will not cause this mood penalty, nor will any custom xenotypes you make from the "new game" screen. However, new xenotypes mixed by you the player and implanted via xenogerm mid-game will trigger the appropriate penalty.
+
+There are multiple ways to justify this in game, such as a Genie who dislikes surgery but is okay with tried-and-true gene therapy, a pawn who dislikes plasteel modifications but has always felt that they could excel as a Highmate, or a Hussar who was modified during a war to better serve their faction. Essentially, all this mod does is assume that when a pawn first spawns, be they Baseliner or Sanguophage, that is who they want to be.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,12 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotype Body Purists Don't Mind Xenogenes\Assemblies\XenotypeBodyPuristFix.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotype Body Purists Don't Mind Xenogenes\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotype Body Purists Don't Mind Xenogenes\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotype Body Purists Don't Mind Xenogenes\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.6\Assemblies\XenotypeBodyPuristFix.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.6\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.6\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.6\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.5\Assemblies\XenotypeBodyPuristFix.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.5\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.5\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.5\Source\XenotypeBodyPuristFix\obj\Debug\XenotypeBodyPuristFix.dll

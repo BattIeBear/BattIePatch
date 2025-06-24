@@ -1,0 +1,25 @@
+﻿using RimWorld;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Verse;
+
+namespace XenotypeBodyPuristFix
+{
+    [StaticConstructorOnStartup]
+    public static class XenotypeUtils
+    {
+        public static HashSet<string> customXenotypesLoaded = new HashSet<string>();
+        static XenotypeUtils()
+        {
+            foreach(var file in GenFilePaths.AllCustomXenotypeFiles)
+            {
+                string xenoName = file.Name;
+                xenoName = xenoName.Substring(0, xenoName.Length - 4);
+                customXenotypesLoaded.Add(xenoName);
+            }
+        }
+    }
+}
