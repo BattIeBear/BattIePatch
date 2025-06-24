@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\Assemblies\BattIePatch - Ghoul Mood Bar Shows Their Hunger.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.6\Assemblies\BattIePatch - Ghoul Mood Bar Shows Their Hunger.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.6\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.6\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.6\Source\BattIePatch - Ghoul Mood Bar Shows Their Hunger\obj\Debug\BattIePatch - Ghoul Mood Bar Shows Their Hunger.dll
