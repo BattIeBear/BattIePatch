@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_EnhancedBioregeneration_ModName>BattIePatch - Enhanced Bioregeneration</BattIePatch_EnhancedBioregeneration_ModName>
+	<BattIePatch_EnhancedBioregeneration_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_EnhancedBioregeneration_TopWarning>
+	<BattIePatch_EnhancedBioregeneration_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_EnhancedBioregeneration_BottomWarning>
+
+	<BattIePatch_EnhancedBioregeneration_Lable1>Difficulty Settings</BattIePatch_EnhancedBioregeneration_Lable1>
+	<BattIePatch_EnhancedBioregeneration_UseExtraTime>Requires Extra Time</BattIePatch_EnhancedBioregeneration_UseExtraTime>
+	<BattIePatch_EnhancedBioregeneration_UseExtraTimeDesc>Sets the default time in pod to 30 days, instead of 25. Will still be adjusted by cleanliness and attunement.</BattIePatch_EnhancedBioregeneration_UseExtraTimeDesc>
+	<BattIePatch_EnhancedBioregeneration_UseExtraMeds>Requires Extra Medicine</BattIePatch_EnhancedBioregeneration_UseExtraMeds>
+	<BattIePatch_EnhancedBioregeneration_UseExtraMedsDesc>Sets Glitterworld Medicine requirement to 4, instead of the default 2.</BattIePatch_EnhancedBioregeneration_UseExtraMedsDesc>
+
+	<BattIePatch_EnhancedBioregeneration_Lable2>Regeneration Settings</BattIePatch_EnhancedBioregeneration_Lable2>
+	<BattIePatch_EnhancedBioregeneration_LessenedRegeneration>Only Heal One Part Per Cycle</BattIePatch_EnhancedBioregeneration_LessenedRegeneration>
+	<BattIePatch_EnhancedBioregeneration_LessenedRegenerationDesc>Still allows the Bioregeneration Cycle to heal limbs, but only one part per cycle.\n\nThis means that if a pawn is missing a hand and a leg, it will heal one or the other, not both.</BattIePatch_EnhancedBioregeneration_LessenedRegenerationDesc>
+	<BattIePatch_EnhancedBioregeneration_HealAllConditions>Heal All Minor Conditions</BattIePatch_EnhancedBioregeneration_HealAllConditions>
+	<BattIePatch_EnhancedBioregeneration_HealAllConditionsDesc>Heals all possible minor conditions (frail, cataracts, blindness, bad back, asthma, hearing loss, and artery blockages) in one cycle, instead of requiring multiple.</BattIePatch_EnhancedBioregeneration_HealAllConditionsDesc>
+
+	<BattIePatch_EnhancedBioregeneration_Lable3>Scarification Settings</BattIePatch_EnhancedBioregeneration_Lable3>
+	<BattIePatch_EnhancedBioregeneration_KeepMinorScars>Keep Only Minor Scarring</BattIePatch_EnhancedBioregeneration_KeepMinorScars>
+	<BattIePatch_EnhancedBioregeneration_KeepMinorScarsDesc>If the pawn's ideology likes scarring, this will only heal non-minor scars or scars that cause too much pain.\n\nBy default, ritual scarifications will never be healed as long as they are supported by the pawn's ideology.</BattIePatch_EnhancedBioregeneration_KeepMinorScarsDesc>
+	<BattIePatch_EnhancedBioregeneration_KeepAllScars>Keep All Scarring</BattIePatch_EnhancedBioregeneration_KeepAllScars>
+	<BattIePatch_EnhancedBioregeneration_KeepAllScarsDesc>If the pawn's ideology likes scarring, this will not heal any scars, regardless of location or severity.\n\nBy default, ritual scarifications will never be healed as long as they are supported by the pawn's ideology.</BattIePatch_EnhancedBioregeneration_KeepAllScarsDesc>
+
+
+</LanguageData>

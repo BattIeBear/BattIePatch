@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BattIePatch: Enhanced Bioregeneration</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.EnhancedBioregeneration</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>V1.6
+
+One of the best things about Rimworld is the number of ways you can tackle any given problem, though a notable exception to this is losing body parts. Missing organs can be harvested from prisoners, of course, or replaced with artificial variants, and missing limbs can also be replaced by artificial versions, but that is the extent of options the vanilla gives you.
+
+In contrast, the vanilla Bioregeneration cycle of the Biosculpter Pod is almost punitive. It takes 25 days by default, needs to be provided with nutrition, and needs to be powered for the duration leaving it susceptible to Solar Flare, Eclipse, and Zzztt... events. In addition, the Biosculpter Pod is locked behind two research projects and the Bioregeneration Cycle is locked behind two more, meaning it is not something most players will be able to grab on a whim. All of that time and commitment, just to fix a scar or replace a finger.
+
+This mod changes that by making sure any part that is missing from a pawn that enters the machine and has not been replaced by an artificial limb is restored. This will restore any body part, though keep in mind that some missing parts will kill a pawn outright - such as the brain or heart - and thus there is no need to fix them. If you have some other mod that allows a pawn to survive without these parts for long enough to enter a Biosculpter Pod (or were unlucky enough to have a Sanguophage's heart be destroyed) then this mod will let the Bioregeneration Cycle restore it.
+
+Sound to good to be true? No worries! This mod comes with options to increase the number of days in the pod from the default 25 to 30, increase the cost of Glitterworld medicine from the default 2 to 4, or both! These options are enabled by default.
+
+Please note that this mod will not restore any body parts added by another mod (e.g., a "tail" part, or a second head, or tentacles not added by Anomaly, etc.). If you let me know in the comments the mod's name and which part the Bioregeneration Cycle failed to restore, I will try to create a patch!
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\Assemblies\BattIePatch - Enhanced Bioregeneration.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\1.5\Assemblies\BattIePatch - Enhanced Bioregeneration.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\1.5\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\1.5\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Enhanced Bioregeneration\1.5\Source\BattIePatch - Enhanced Bioregeneration\obj\Debug\BattIePatch - Enhanced Bioregeneration.dll
