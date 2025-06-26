@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>BattIePatch_DetonateIED</defName>
+		<driverClass>BattIePatch_IEDRemoteDetonation.JobDriver_DetonateIED</driverClass>
+		<reportString>detonating explosive.</reportString>
+		<allowOpportunisticPrefix>false</allowOpportunisticPrefix>
+	</JobDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_IEDRemoteDetonation_ModName>BattIePatch - IED Remote Detonation</BattIePatch_IEDRemoteDetonation_ModName>
+	<BattIePatch_IEDRemoteDetonation_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_IEDRemoteDetonation_TopWarning>
+	<BattIePatch_IEDRemoteDetonation_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_IEDRemoteDetonation_BottomWarning>
+	
+	<BattIePatch_IEDRemoteDetonation_DraftedDetonation>Requires Drafted Detonation</BattIePatch_IEDRemoteDetonation_DraftedDetonation>
+	<BattIePatch_IEDRemoteDetonation_DraftedDetonationDesc>If checked, a drafted pawn will be able to detonate the explosive by selecting the drafted pawn, right clicking on the IED, and then selecting "Detonate" from the floating menu. The pawn will then move close enough to the IED before activating it. This is the default functionality.\n\nIf NOT checked, a gizmo will appear on the explosive that, when clicked, will detonate the IED immediately.</BattIePatch_IEDRemoteDetonation_DraftedDetonationDesc>
+	<BattIePatch_IEDRemoteDetonation_SafeDistance>Move to Safe Distance before Detonation</BattIePatch_IEDRemoteDetonation_SafeDistance>
+	<BattIePatch_IEDRemoteDetonation_SafeDistanceDesc>If checked, a drafted pawn will move outside of the explosive's blast radius before triggering the detonation.\n\nIf Requires Drafted Detonation is not checked, this setting will do nothing.</BattIePatch_IEDRemoteDetonation_SafeDistanceDesc>
+	<BattIePatch_IEDRemoteDetonation_RangeSlider>Remote Detonation Range: </BattIePatch_IEDRemoteDetonation_RangeSlider>
+	<BattIePatch_IEDRemoteDetonation_RangeSliderDesc>How close the drafted pawn needs to be to detonate the explosive. 1 would be just outside the blast radius, 5 would be 5 times the blast radius. Default is 2 (double the blast radius).\n\nIf Requires Drafted Detonation is not checked, this setting will do nothing.</BattIePatch_IEDRemoteDetonation_RangeSliderDesc>
+
+</LanguageData>
