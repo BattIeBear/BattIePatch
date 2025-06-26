@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BattIePatch_ExtremeHemogenExtraction.IconOptions">
+		<UseImage Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="BloodTransfusion"]</xpath>
+			<value>
+				<uiIconThing>HemogenPack</uiIconThing>
+			</value>
+		</UseImage>
+	</Operation>
+
+</Patch>

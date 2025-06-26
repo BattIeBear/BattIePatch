@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\Assemblies\BattIePatch - Extreme Hemogen Extraction.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.5\Assemblies\BattIePatch - Extreme Hemogen Extraction.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.5\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.5\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.5\Source\BattIePatch - Extreme Hemogen Extraction\obj\Debug\BattIePatch - Extreme Hemogen Extraction.dll

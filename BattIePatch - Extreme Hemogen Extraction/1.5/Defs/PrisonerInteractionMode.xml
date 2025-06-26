@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PrisonerInteractionModeDef>
+		<defName>battiepatch_ExtremeHemogenFarm</defName>
+		<label>allow bloodloss coma</label>
+		<listOrder>27</listOrder>
+		<description>If this pawn is set to Extract Hemogen, they will be drained of almost all of their blood. They will be continuously drained, kept unconscious due to bloodloss.</description>
+		<hideOnHemogenicPawns>true</hideOnHemogenicPawns> <!--Change if VRE Sanguophage is enabled?-->
+		<mustBeAwake>false</mustBeAwake>
+		<isNonExclusiveInteraction>true</isNonExclusiveInteraction>
+	</PrisonerInteractionModeDef>
+
+</Defs>
