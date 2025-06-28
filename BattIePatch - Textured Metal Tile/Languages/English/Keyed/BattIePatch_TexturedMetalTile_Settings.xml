@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_TexturedMetalTile_ModName>BattIePatch - Textured Metal Tile</BattIePatch_TexturedMetalTile_ModName>
+	<BattIePatch_TexturedMetalTile_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_TexturedMetalTile_TopWarning>
+	<BattIePatch_TexturedMetalTile_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_TexturedMetalTile_BottomWarning>
+	
+	<BattIePatch_TexturedMetalTile_NewTextureSteel>Metal Tile Uses Bioferrite Texture</BattIePatch_TexturedMetalTile_NewTextureSteel>
+	<BattIePatch_TexturedMetalTile_NewTextureSteelDesc>This setting will cause Metal Tiles to use the same texture as Bioferrite Plate.</BattIePatch_TexturedMetalTile_NewTextureSteelDesc>
+	<BattIePatch_TexturedMetalTile_NewTextureGold>Gold Tile Uses Bioferrite Texture</BattIePatch_TexturedMetalTile_NewTextureGold>
+	<BattIePatch_TexturedMetalTile_NewTextureGoldDesc>This setting will cause Gold Tiles to use the same texture as Bioferrite Plate.</BattIePatch_TexturedMetalTile_NewTextureGoldDesc>
+	<BattIePatch_TexturedMetalTile_NewTextureSilver>Silver Tile Uses Bioferrite Texture</BattIePatch_TexturedMetalTile_NewTextureSilver>
+	<BattIePatch_TexturedMetalTile_NewTextureSilverDesc>This setting will cause Silver Tiles to use the same texture as Bioferrite Plate.</BattIePatch_TexturedMetalTile_NewTextureSilverDesc>
+	<BattIePatch_TexturedMetalTile_NewTextureBioferrite>Bioferrite Plate uses Default Tile Texture</BattIePatch_TexturedMetalTile_NewTextureBioferrite>
+	<BattIePatch_TexturedMetalTile_NewTextureBioferriteDesc>Hate how Bioferrite Plate looks? This setting will cause it to use the same texture as the rest of the metal tiles.</BattIePatch_TexturedMetalTile_NewTextureBioferriteDesc>
+
+</LanguageData>

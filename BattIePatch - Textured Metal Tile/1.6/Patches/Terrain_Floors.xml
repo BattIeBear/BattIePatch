@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BattIePatch_TexturedMetalTile.UseNewTextureSteel">
+		<newSteel Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[defName="MetalTile"]</xpath>
+			<value>
+				<texturePath>Terrain/Surfaces/BioferritePlateFloor</texturePath>
+			</value>
+		</newSteel>
+	</Operation>
+
+	<Operation Class="BattIePatch_TexturedMetalTile.UseNewTextureGold">
+		<newGold Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[defName="SilverTile"]</xpath>
+			<value>
+				<texturePath>Terrain/Surfaces/BioferritePlateFloor</texturePath>
+			</value>
+		</newGold>
+	</Operation>
+
+	<Operation Class="BattIePatch_TexturedMetalTile.UseNewTextureSilver">
+		<newSilver Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[defName="GoldTile"]</xpath>
+			<value>
+				<texturePath>Terrain/Surfaces/BioferritePlateFloor</texturePath>
+			</value>
+		</newSilver>
+	</Operation>
+
+	<Operation Class="BattIePatch_TexturedMetalTile.UseNewTextureBioferrite">
+		<newBioferrite Class="PatchOperationReplace">
+			<xpath>/Defs/TerrainDef[defName="BioferritePlate"]/texturePath</xpath>
+			<value>
+				<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+			</value>
+		</newBioferrite>
+	</Operation>
+
+</Patch>
