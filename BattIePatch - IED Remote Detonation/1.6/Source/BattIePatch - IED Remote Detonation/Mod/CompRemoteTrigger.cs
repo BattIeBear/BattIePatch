@@ -31,16 +31,35 @@ namespace BattIePatch_IEDRemoteDetonation
 
             if (ExplosiveComp != null && BattIePatchIEDRemoteDetonationSettings.DraftedDetonation == false)
             {
-                yield return new Command_Action
+                if (BattIePatchIEDRemoteDetonationSettings.RequiresMicroelectronics)
                 {
-                    defaultLabel = "BattIePatch_IEDRemoteDetonation_Detonate".Translate(),
-                    defaultDesc = "BattIePatch_IEDRemoteDetonation_DetonateDesc".Translate(),
-                    icon = TexCommand.Detonate,
-                    action = delegate
+                    if (Find.ResearchManager.GetProgress(ResearchProjectDefOf.MicroelectronicsBasics) >= ResearchProjectDefOf.MicroelectronicsBasics.baseCost)
                     {
-                        ExplosiveComp.StartWick();
+                        yield return new Command_Action
+                        {
+                            defaultLabel = "BattIePatch_IEDRemoteDetonation_Detonate".Translate(),
+                            defaultDesc = "BattIePatch_IEDRemoteDetonation_DetonateDesc".Translate(),
+                            icon = TexCommand.Detonate,
+                            action = delegate
+                            {
+                                ExplosiveComp.StartWick();
+                            }
+                        };
                     }
-                };
+                }
+                else
+                {
+                    yield return new Command_Action
+                    {
+                        defaultLabel = "BattIePatch_IEDRemoteDetonation_Detonate".Translate(),
+                        defaultDesc = "BattIePatch_IEDRemoteDetonation_DetonateDesc".Translate(),
+                        icon = TexCommand.Detonate,
+                        action = delegate
+                        {
+                            ExplosiveComp.StartWick();
+                        }
+                    };
+                }
             }
             yield break;
         }

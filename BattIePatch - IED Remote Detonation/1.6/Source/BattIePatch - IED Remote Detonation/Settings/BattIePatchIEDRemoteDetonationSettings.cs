@@ -8,6 +8,7 @@ namespace BattIePatch_IEDRemoteDetonation
         public static bool DraftedDetonation = true;
         public static bool MoveToSafeDistance = true; // Whether to move to a safe distance before detonation
         public static float DraftedDetonationMaxRange = 2f; // Default range for detonation
+        public static bool RequiresMicroelectronics = true;
 
         /// The part that writes our settings to file. Note that saving is by ref.
         public override void ExposeData()
@@ -15,6 +16,7 @@ namespace BattIePatch_IEDRemoteDetonation
             Scribe_Values.Look(ref DraftedDetonation, "DraftedDetonation", true);
             Scribe_Values.Look(ref MoveToSafeDistance, "MoveToSafeDistance", true);
             Scribe_Values.Look(ref DraftedDetonationMaxRange, "DraftedDetonationRange", 2f);
+            Scribe_Values.Look(ref RequiresMicroelectronics, "MoveToSafeDistance", false);
             base.ExposeData();
         }
     }

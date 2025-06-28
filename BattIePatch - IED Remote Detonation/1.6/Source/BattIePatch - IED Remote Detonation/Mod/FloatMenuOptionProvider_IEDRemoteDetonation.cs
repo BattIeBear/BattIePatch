@@ -17,7 +17,14 @@ namespace BattIePatch_IEDRemoteDetonation
             if (!(clickedThing is Thing thing)) yield break;
             var pawn = context.FirstSelectedPawn;
             if (pawn == null || !pawn.Drafted || !BattIePatchIEDRemoteDetonationSettings.DraftedDetonation || pawn.WorkTagIsDisabled(WorkTags.Violent))
+            {
                 yield break;
+            }
+
+            if (BattIePatchIEDRemoteDetonationSettings.RequiresMicroelectronics && Find.ResearchManager.GetProgress(ResearchProjectDefOf.MicroelectronicsBasics) < ResearchProjectDefOf.MicroelectronicsBasics.baseCost)
+            {
+                yield break;
+            }
 
             var remoteTrigger = thing.TryGetComp<CompRemoteTrigger>();
             if (remoteTrigger != null)

@@ -18,6 +18,11 @@ namespace BattIePatch_IEDRemoteDetonation
                 return;
             }
 
+            if (BattIePatchIEDRemoteDetonationSettings.RequiresMicroelectronics && Find.ResearchManager.GetProgress(ResearchProjectDefOf.MicroelectronicsBasics) < ResearchProjectDefOf.MicroelectronicsBasics.baseCost)
+            {
+                return;
+            }
+
             IntVec3 cell = IntVec3.FromVector3(clickPos);
             Map map = pawn.Map;
             foreach (Thing thing in cell.GetThingList(map))

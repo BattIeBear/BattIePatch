@@ -33,6 +33,7 @@ namespace BattIePatch_IEDRemoteDetonation
             BattIePatchIEDRemoteDetonationSettings.DraftedDetonationMaxRange = Mathf.Round(listingStandard.SliderLabeled("BattIePatch_IEDRemoteDetonation_RangeSlider".Translate() + (BattIePatchIEDRemoteDetonationSettings.DraftedDetonationMaxRange).ToString(),
                 BattIePatchIEDRemoteDetonationSettings.DraftedDetonationMaxRange, 1f, 24f, tooltip: "BattIePatch_IEDRemoteDetonation_RangeSliderDesc".Translate()
             ) * 4f) / 4f;
+            listingStandard.CheckboxLabeled("BattIePatch_IEDRemoteDetonation_RequiresMicroelectronics".Translate(), ref BattIePatchIEDRemoteDetonationSettings.RequiresMicroelectronics, "BattIePatch_IEDRemoteDetonation_RequiresMicroelectronicsDesc".Translate());
 
             listingStandard.Gap();
 

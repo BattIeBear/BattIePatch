@@ -11,5 +11,7 @@
 	<BattIePatch_IEDRemoteDetonation_SafeDistanceDesc>If checked, a drafted pawn will move outside of the explosive's blast radius before triggering the detonation.\n\nIf Requires Drafted Detonation is not checked, this setting will do nothing.</BattIePatch_IEDRemoteDetonation_SafeDistanceDesc>
 	<BattIePatch_IEDRemoteDetonation_RangeSlider>Remote Detonation Range: </BattIePatch_IEDRemoteDetonation_RangeSlider>
 	<BattIePatch_IEDRemoteDetonation_RangeSliderDesc>How close the drafted pawn needs to be to detonate the explosive. 1 would be just outside the blast radius, 5 would be 5 times the blast radius. Default is 2 (double the blast radius).\n\nIf Requires Drafted Detonation is not checked, this setting will do nothing.</BattIePatch_IEDRemoteDetonation_RangeSliderDesc>
-
+	<BattIePatch_IEDRemoteDetonation_RequiresMicroelectronics>Requires Microelectronics</BattIePatch_IEDRemoteDetonation_RequiresMicroelectronics>
+	<BattIePatch_IEDRemoteDetonation_RequiresMicroelectronicsDesc>Remote detonation (either through drafted pawn or gizmo) will not be possible until after Microelectronics is researched.</BattIePatch_IEDRemoteDetonation_RequiresMicroelectronicsDesc>
+	
 </LanguageData>
