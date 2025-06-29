@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SecurityDoor"]/thingClass</xpath>
+		<value>
+			<thingClass>BattIePatch_Lockdown.Building_SealableMultiTileDoor</thingClass>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="SecurityDoor"]/comps</xpath>
+		<value>
+			<li Class="BattIePatch_Lockdown.CompProperties_Sealable"/>
+		</value>
+	</Operation>
+</Patch>

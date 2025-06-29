@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>BattIePatch: Lockdown!</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.Lockdown</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+Security doors can now be locked down, preventing all pawns from passing through them, including during prison breaks or an anomaly being released. This doesn't break anything, all pawns will just treat it as a wall until unsealed. Prisoners trying to break out will try to attack it until it is destroyed, or will look for a weaker wall to break through.
+
+Doors are assigned to a sector, red yellow, or blue, and each sector can be locked down individually or the entire map can be locked down at once.
+
+Found an issue? Leave a comment!
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>Anomaly</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/2380740</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+	</loadAfter>
+
+</ModMetaData>

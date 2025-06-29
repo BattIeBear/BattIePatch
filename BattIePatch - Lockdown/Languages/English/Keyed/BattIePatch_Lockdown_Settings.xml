@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_Lockdown_ModName>BattIePatch - Lockdown</BattIePatch_Lockdown_ModName>
+	<BattIePatch_Lockdown_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_Lockdown_TopWarning>
+	<BattIePatch_Lockdown_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_Lockdown_BottomWarning>
+
+	<BattIePatch_Lockdown_Lable1>This gives additional control over what happens when you lockdown a sector:</BattIePatch_Lockdown_Lable1>
+	<BattIePatch_Lockdown_OverridesHoldOpen>Lockdown Overrides Hold Open</BattIePatch_Lockdown_OverridesHoldOpen>
+	<BattIePatch_Lockdown_OverridesHoldOpenDesc>If checked, when a sector is locked down, any doors that are held open will still shut. When unsealed, they will wait for a pawn to walk through before being held open again.</BattIePatch_Lockdown_OverridesHoldOpenDesc>
+
+</LanguageData>

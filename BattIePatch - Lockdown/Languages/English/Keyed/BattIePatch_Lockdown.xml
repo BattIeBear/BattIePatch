@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_Lockdown_SetSector>Change Sector</BattIePatch_Lockdown_SetSector>
+	<BattIePatch_Lockdown_SetSectorDesc>Set which sector (red, blue, or yellow) this door will be a part of. Doors in the same sector will seal and unseal at the same time.</BattIePatch_Lockdown_SetSectorDesc>
+	
+	<BattIePatch_Lockdown_SealSector>Seal Sector</BattIePatch_Lockdown_SealSector>
+	<BattIePatch_Lockdown_SealSectorDesc>The sector is unsealed. Click to seal all doors of this sector.\n\nSealed doors are completely impassible by all pawns.</BattIePatch_Lockdown_SealSectorDesc>
+
+	<BattIePatch_Lockdown_UnsealSector>Seal Sector</BattIePatch_Lockdown_UnsealSector>
+	<BattIePatch_Lockdown_UnsealSectorDesc>The sector is sealed. Click to unseal all doors of this sector.\n\nSealed doors are completely impassible by all pawns.</BattIePatch_Lockdown_UnsealSectorDesc>
+
+	<BattIePatch_Lockdown_SealMap>Map Unsealed</BattIePatch_Lockdown_SealMap>
+	<BattIePatch_Lockdown_SealMapDesc>The map is unsealed. Click to seal all doors on this map.\n\nSealed doors are completely impassible by all pawns.</BattIePatch_Lockdown_SealMapDesc>
+
+	<BattIePatch_Lockdown_UnsealMap>Map Sealed</BattIePatch_Lockdown_UnsealMap>
+	<BattIePatch_Lockdown_UnsealMapDesc>The map is sealed. Click to unseal all doors on this map.\n\nSealed doors are completely impassible by all pawns.</BattIePatch_Lockdown_UnsealMapDesc>
+	
+</LanguageData>
