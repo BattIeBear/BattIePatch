@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_SilenceIsGolden_LetterLabelPawnAlmostHypnotized>{PAWN_nameDef} resisted hypnosis</BattIePatch_SilenceIsGolden_LetterLabelPawnAlmostHypnotized>
+	<BattIePatch_SilenceIsGolden_LetterPawnAlmostHypnotized>{PAWN_nameDef} resisted hypnosis by a revenant due to being psychically inert.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will try to hypnotize new victims, who might not be as lucky as {PAWN_nameDef}.</BattIePatch_SilenceIsGolden_LetterPawnAlmostHypnotized>
+
+</LanguageData>

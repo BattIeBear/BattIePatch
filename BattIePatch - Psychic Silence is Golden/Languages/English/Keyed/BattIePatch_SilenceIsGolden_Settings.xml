@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_SilenceIsGolden_ModName>BattIePatch - Psychic Silence is Golden</BattIePatch_SilenceIsGolden_ModName>
+	<BattIePatch_SilenceIsGolden_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_SilenceIsGolden_TopWarning>
+	<BattIePatch_SilenceIsGolden_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_SilenceIsGolden_BottomWarning>
+
+	<BattIePatch_SilenceIsGolden_Lable1>The following choices allow you to customize which threats a psychically deaf pawn should be immune to:\n(Will not fix already affected pawns)</BattIePatch_SilenceIsGolden_Lable1>
+	<BattIePatch_SilenceIsGolden_GoldenCubeImmunity>Immune to the Golden Cube</BattIePatch_SilenceIsGolden_GoldenCubeImmunity>
+	<BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc>Psychically deaf pawns will be immune to the fascination the Golden Cube stirs in others.</BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc>
+	<BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity>Immune to Unnatural Corpses</BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity>
+	<BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc>Psychically deaf pawns will never be targeted or followed by an unnatural corpse.</BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc>
+	<BattIePatch_SilenceIsGolden_RevenantHypnosisImmunity>Immune to Revenant Hypnosis</BattIePatch_SilenceIsGolden_RevenantHypnosisImmunity>
+	<BattIePatch_SilenceIsGolden_RevenantHypnosisImmunityDesc>Revenants will try to target psychically deaf pawns, but their hypnosis will have no effect.</BattIePatch_SilenceIsGolden_RevenantHypnosisImmunityDesc>
+
+
+</LanguageData>
