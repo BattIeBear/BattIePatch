@@ -17,8 +17,6 @@ namespace BattIePatch_SilenceIsGolden
         /// The (optional) GUI part to set your settings.
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            Rect lRect = new Rect(inRect.x, inRect.y, (inRect.width / 2f) - 15f, inRect.height);
-            Rect rRect = new Rect((inRect.x + inRect.width / 2f) + 15f, inRect.y, (inRect.width / 2f) - 15f, inRect.height);
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
             listingStandard.Label("BattIePatch_SilenceIsGolden_TopWarning".Translate());
@@ -32,7 +30,23 @@ namespace BattIePatch_SilenceIsGolden
             listingStandard.Label("BattIePatch_SilenceIsGolden_Lable1".Translate());
             listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_GoldenCubeImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.GoldenCubeImmunity, "BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc".Translate());
             listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.UnnaturalCorpseImmunity, "BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc".Translate());
+            listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity, "BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunityDesc".Translate());
+            if (BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity)
+            {
+                BattIePatchSilenceIsGoldenSettings.RevenantHypnosisImmunity = false;
+            }
             listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_RevenantHypnosisImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.RevenantHypnosisImmunity, "BattIePatch_SilenceIsGolden_RevenantHypnosisImmunityDesc".Translate());
+            if (BattIePatchSilenceIsGoldenSettings.RevenantHypnosisImmunity)
+            {
+                BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity = false;
+            }
+
+            listingStandard.Gap();
+            listingStandard.GapLine();
+            listingStandard.Gap();
+
+            listingStandard.Label("BattIePatch_SilenceIsGolden_Lable2".Translate());
+            listingStandard.CheckboxLabeled("BattIePatch_WeightedMode".Translate(), ref BattIePatchSilenceIsGoldenSettings.WeightedMode, "BattIePatch_WeightedModeDesc".Translate());
 
             listingStandard.Gap();
 

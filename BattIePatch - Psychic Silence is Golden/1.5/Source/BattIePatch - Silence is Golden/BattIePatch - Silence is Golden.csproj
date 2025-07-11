@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Harmony\CompRevenant_Hypnotize_Patch.cs" />
     <Compile Include="Harmony\CompGoldenCube_ValidatePawn_Patch.cs" />
+    <Compile Include="Harmony\RevenantUtility_ScanForTarget_NewTemp_Patch.cs" />
+    <Compile Include="Harmony\RevenantUtility_ValidTarget_Patch.cs" />
     <Compile Include="Harmony\HarmonyConstructor.cs" />
     <Compile Include="Harmony\IncidentWorker_UnnaturalCorpseArrival_ValidatePawn_Patch.cs" />
     <Compile Include="Harmony\QuestNode_Root_MysteriousCargoUnnaturalCorpse_ValidatePawn_Patch.cs" />

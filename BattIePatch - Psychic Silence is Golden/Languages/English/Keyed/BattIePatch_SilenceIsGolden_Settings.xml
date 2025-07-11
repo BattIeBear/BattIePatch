@@ -10,8 +10,14 @@
 	<BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc>Psychically deaf pawns will be immune to the fascination the Golden Cube stirs in others.</BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc>
 	<BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity>Immune to Unnatural Corpses</BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity>
 	<BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc>Psychically deaf pawns will never be targeted or followed by an unnatural corpse.</BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc>
+	<BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunity>Immune to Revenant Attacks</BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunity>
+	<BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunityDesc>Revenants will not try to target psychically deaf pawns.</BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunityDesc>
 	<BattIePatch_SilenceIsGolden_RevenantHypnosisImmunity>Immune to Revenant Hypnosis</BattIePatch_SilenceIsGolden_RevenantHypnosisImmunity>
 	<BattIePatch_SilenceIsGolden_RevenantHypnosisImmunityDesc>Revenants will try to target psychically deaf pawns, but their hypnosis will have no effect.</BattIePatch_SilenceIsGolden_RevenantHypnosisImmunityDesc>
+	
+	<BattIePatch_SilenceIsGolden_Lable2>This choice will affect the random pawn selection, making it weighed more towards selective pawns with high Psychic Sensitivity</BattIePatch_SilenceIsGolden_Lable2>
+	<BattIePatch_WeightedMode>Weighted Mode</BattIePatch_WeightedMode>
+	<BattIePatch_WeightedModeDesc>Entities beings will seek out pawns based on Psychic Sensitivity, meaning highly sensitive pawns will be affected more often and low sensitivity pawns less often. This will generally make the game slightly harder, as more bad things will be centered on fewer pawns.\n\nAt the moment, this only affects Revenants hunting your pawns. More will be added later.</BattIePatch_WeightedModeDesc>
 
 
 </LanguageData>

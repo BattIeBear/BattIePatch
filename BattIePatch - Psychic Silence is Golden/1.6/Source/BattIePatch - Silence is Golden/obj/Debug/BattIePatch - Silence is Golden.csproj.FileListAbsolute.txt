@@ -10,3 +10,7 @@ C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Silence is Golden\1.6\Asse
 C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.csproj.AssemblyReference.cache
 C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.csproj.CoreCompileInputs.cache
 C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.6\Assemblies\BattIePatch - Silence is Golden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.6\Source\BattIePatch - Silence is Golden\obj\Debug\BattIePatch - Silence is Golden.dll
