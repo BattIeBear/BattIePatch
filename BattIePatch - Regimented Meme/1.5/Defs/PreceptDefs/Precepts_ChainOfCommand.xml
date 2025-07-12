@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Issues -->
+
+	<IssueDef>
+		<defName>BattIePatch_ChainOfCommand</defName>
+		<label>chain of command</label>
+		<iconPath>UI/Issues/Command</iconPath>
+	</IssueDef>
+
+	<!-- Precepts -->
+
+	<PreceptDef>
+		<defName>BattIePatch_ChainOfCommand_Mandatory</defName>
+		<issue>BattIePatch_ChainOfCommand</issue>
+		<label>mandatory</label>
+		<description>The chain of command is sacrosanct. It must never be broken.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>130</displayOrderInIssue>
+		<displayOrderInImpact>750</displayOrderInImpact>
+		<requiredMemes>
+			<li>BattIePatch_Regimented</li>
+		</requiredMemes>
+		<associatedMemes>
+			<li>BattIePatch_Regimented</li>
+		</associatedMemes>
+		<comps>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>BattIePatch_ChainOfCommand_Broken</thought>
+			</li>
+		</comps>
+	</PreceptDef>
+
+	<!-- Thoughts -->
+
+	<ThoughtDef>
+		<defName>BattIePatch_ChainOfCommand_Broken</defName>
+		<workerClass>BattIePatch_RegimentedMeme.ThoughtWorker_Precept_ChainOfCommand</workerClass>
+		<producesMemoryThought>BattIePatch_Unarmed_Disapproved_Memory</producesMemoryThought>
+		<stages>
+			<li>
+				<label>Chain of command is strong</label>
+				<description>We have faith in our leadership. Together we are strong.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is weakened</label>
+				<description>We can handle the day-to-day, but we won't be successful without a full command!</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is severed</label>
+				<description>Our command is stretched thin; there's simply too much for them to handle!</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is broken</label>
+				<description>Even the best CO needs support. Our commander needs help to ensure smooth operation!</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is shattered</label>
+				<description>We have no leadership to speak of. Now is the time to panic!</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is stretched</label>
+				<description>We don't have a full command, but we're making do. Our leadership could use some help, though.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

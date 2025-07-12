@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Precepts -->
+
+	<PreceptDef>
+		<defName>BattIePatch_NutrientPasteEating_Tolerable</defName>
+		<issue>NutrientPasteEating</issue>
+		<label>tolerable</label>
+		<description>Nutrient paste is tolerable.</description>
+		<impact>Low</impact>
+		<displayOrderInIssue>10</displayOrderInIssue>
+		<defaultSelectionWeight>1</defaultSelectionWeight>
+		<requiredMemes>
+			<li>BattIePatch_Regimented</li>
+		</requiredMemes>
+		<associatedMemes>
+			<li>BattIePatch_Regimented</li>
+		</associatedMemes>
+		<classic>true</classic>
+		<comps>
+			<li Class="PreceptComp_SelfTookMemoryThought">
+				<eventDef>AteNutrientPaste</eventDef>
+				<thought>BattIePatch_AteNutrientPasteMeal</thought>
+			</li>
+		</comps>
+	</PreceptDef>
+
+	<!-- Thoughts -->
+
+	<ThoughtDef>
+		<defName>BattIePatch_AteNutrientPasteMeal</defName>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Ascetic</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>ate nutrient paste meal</label>
+				<description>I had to eat nutrient paste. Tasteless, but better than starving.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\Assemblies\BattIePatch - Regimented Meme.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\1.5\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\1.5\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\1.5\Source\BattIePatch - Regimented Meme\obj\Debug\BattIePatch - Regimented Meme.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Regimented Meme\1.5\Assemblies\BattIePatch - Regimented Meme.dll
