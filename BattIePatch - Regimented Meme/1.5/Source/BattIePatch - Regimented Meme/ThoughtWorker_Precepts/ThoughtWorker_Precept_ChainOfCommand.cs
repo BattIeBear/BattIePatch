@@ -109,7 +109,7 @@ namespace BattIePatch_RegimentedMeme
                 case true:
                     foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
                     {
-                        if (precept is Precept_Role precept_Role && precept_Role.ChosenPawnSingle() != null && precept_Role.Active)
+                        if (precept is Precept_Role precept_Role && precept_Role.Active && precept_Role.ChosenPawns().Any())
                         {
                             filledRoles.Add(precept_Role);
                         }
@@ -119,7 +119,7 @@ namespace BattIePatch_RegimentedMeme
 
                     foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
                     {
-                        if (precept is Precept_Role precept_Role && precept_Role.ChosenPawnSingle() != null && precept_Role.Active && precept_Role.def.leaderRole == false)
+                        if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == false && precept_Role.Active && precept_Role.ChosenPawns().Any())
                         {
                             filledRoles.Add(precept_Role);
                         }
@@ -127,7 +127,7 @@ namespace BattIePatch_RegimentedMeme
 
                     foreach (Precept precept in Faction.OfPlayer.ideos.PrimaryIdeo.PreceptsListForReading)
                     {
-                        if (precept is Precept_Role precept_Role && precept_Role.ChosenPawnSingle() != null && precept_Role.Active && precept_Role.def.leaderRole == true)
+                        if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == true && precept_Role.Active && precept_Role.ChosenPawns().Any())
                         {
                             filledRoles.Add(precept_Role);
                         }
