@@ -14,6 +14,7 @@ namespace BattIePatch_RegimentedMeme
             if (storedMaxRoles == -1)
             {
                 storedMaxRoles = 1;
+                storedIsPrimaryIdeo = p.ideo.Ideo == Faction.OfPlayer.ideos.PrimaryIdeo;
                 foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
                 {
                     if (precept is Precept_Role precept_Role && precept_Role.Active && precept_Role.def.leaderRole == false)
@@ -31,7 +32,6 @@ namespace BattIePatch_RegimentedMeme
 
         protected override ThoughtState ShouldHaveThought(Pawn p)
         {
-            Log.Message("Max Roles: " + storedMaxRoles);
             if (GenDate.DaysPassed < 10)
             {
                 return false;
@@ -47,13 +47,11 @@ namespace BattIePatch_RegimentedMeme
                 return false;
             }
 
-            if (savedStage != -1 && iterations != 9)
+            if (savedStage != -1 && GenTicks.TicksGame % 2500 != 0)
             {
-                iterations++;
                 return ThoughtState.ActiveAtStage(savedStage);
             }
 
-            iterations = 1;
             if (!RolesFilled(p, out int filledRoles))
             {
                 savedStage = 0;
@@ -61,7 +59,6 @@ namespace BattIePatch_RegimentedMeme
             }
 
             int stage = 0;
-            Log.Message("Filled Roles: " + filledRoles);
             float filledPercent = (float)filledRoles / (float)maxRoles(p);
 
             // Get the number of free colonists in the colony
@@ -77,7 +74,7 @@ namespace BattIePatch_RegimentedMeme
             }
             else if (filledPercent >= 0.330f)
             {
-                // ~!/3 of roles filled
+                // ~1/3 of roles filled
                 stage = 2;
             }
             else if (filledPercent > 0.000f)
@@ -91,7 +88,7 @@ namespace BattIePatch_RegimentedMeme
                 stage = 4;
             }
 
-            if ((stage > 0 && stage < 4) && filledRoles >= p.Map.mapPawns.ColonistCount / 3.0f)
+            if (stage > 0 && stage < 4 && filledRoles >= p.Map.mapPawns.ColonistCount / 3.0f)
             {
                 // At least 1/3 of colonists have a role, but not all roles are filled
                 stage = 5;
@@ -100,44 +97,63 @@ namespace BattIePatch_RegimentedMeme
             return ThoughtState.ActiveAtStage(stage);
         }
 
-        public static bool RolesFilled(Pawn p, out int filledRolesCount)
+        bool storedIsPrimaryIdeo = false;
+        List<Precept_Role> totalRoles = new List<Precept_Role>();
+        public bool RolesFilled(Pawn p, out int filledRolesCount)
         {
             List<Precept_Role> filledRoles = new List<Precept_Role>();
 
-            switch (p.ideo.Ideo == Faction.OfPlayer.ideos.PrimaryIdeo)
+            if (storedIsPrimaryIdeo != (p.ideo.Ideo == Faction.OfPlayer.ideos.PrimaryIdeo))
             {
-                case true:
-                    foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
-                    {
-                        if (precept is Precept_Role precept_Role && precept_Role.Active && precept_Role.ChosenPawns().Any())
-                        {
-                            filledRoles.Add(precept_Role);
-                        }
-                    }
-                    break;
-                case false:
+                storedIsPrimaryIdeo = p.ideo.Ideo == Faction.OfPlayer.ideos.PrimaryIdeo;
+                totalRoles.Clear();
+            }
 
-                    foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
-                    {
-                        if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == false && precept_Role.Active && precept_Role.ChosenPawns().Any())
+            if (totalRoles.Count == 0)
+            {
+                switch (storedIsPrimaryIdeo)
+                {
+                    case true:
+                        foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
                         {
-                            filledRoles.Add(precept_Role);
+                            if (precept is Precept_Role precept_Role && precept_Role.Active)
+                            {
+                                totalRoles.Add(precept_Role);
+                            }
                         }
-                    }
+                        break;
+                    case false:
 
-                    foreach (Precept precept in Faction.OfPlayer.ideos.PrimaryIdeo.PreceptsListForReading)
-                    {
-                        if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == true && precept_Role.Active && precept_Role.ChosenPawns().Any())
+                        foreach (Precept precept in p.ideo.Ideo.PreceptsListForReading)
                         {
-                            filledRoles.Add(precept_Role);
+                            if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == false && precept_Role.Active)
+                            {
+                                totalRoles.Add(precept_Role);
+                            }
                         }
-                    }
-                    break;
+
+                        foreach (Precept precept in Faction.OfPlayer.ideos.PrimaryIdeo.PreceptsListForReading)
+                        {
+                            if (precept is Precept_Role precept_Role && precept_Role.def.leaderRole == true && precept_Role.Active)
+                            {
+                                totalRoles.Add(precept_Role);
+                            }
+                        }
+                        break;
+                }
+            }
+
+            for (int i = 0; i < totalRoles.Count; i++)
+            {
+                Precept_Role precept_Role = totalRoles[i];
+                if (precept_Role.ChosenPawns().Any())
+                {
+                    filledRoles.Add(precept_Role);
+                }
             }
 
             filledRolesCount = filledRoles.Count;
             return filledRoles.Any();
         }
-
     }
 }
