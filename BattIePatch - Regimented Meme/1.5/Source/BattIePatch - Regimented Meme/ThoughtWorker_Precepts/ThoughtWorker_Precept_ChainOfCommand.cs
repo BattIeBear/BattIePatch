@@ -54,8 +54,8 @@ namespace BattIePatch_RegimentedMeme
 
             if (!RolesFilled(p, out int filledRoles))
             {
-                savedStage = 0;
-                return ThoughtState.ActiveAtStage(0);
+                savedStage = 4;
+                return ThoughtState.ActiveAtStage(4);
             }
 
             int stage = 0;
