@@ -37,5 +37,6 @@ Please note that this mod will not restore any body parts added by another mod (
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VPsycastsE</li>
 	</loadAfter>
 </ModMetaData>

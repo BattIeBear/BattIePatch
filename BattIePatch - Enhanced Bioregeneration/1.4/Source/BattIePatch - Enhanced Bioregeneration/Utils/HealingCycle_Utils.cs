@@ -349,6 +349,13 @@ namespace BattIePatch_EnhancedBioregeneration
                 return true;
             }
 
+            // Never remove psylink
+            if (hediff.def.defName == "PsychicAmplifier" || hediff.def.defName == "VPE_PsycastAbilityImplant")
+            {
+                // heal
+                return false;
+            }
+
             // if hedif is a ritual scarification
             // and the pawn's ideology likes scarifications
             // and KeepAllScars or KeepMinorScars is ticked
