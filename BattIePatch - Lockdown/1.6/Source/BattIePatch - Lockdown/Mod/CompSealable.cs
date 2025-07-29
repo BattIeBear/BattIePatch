@@ -190,13 +190,27 @@ namespace BattIePatch_Lockdown
             {
                 if (cachedTwinkleEffector == null && tickManager.TicksGame % 180 == 0)
                 {
-                    if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
+                    if (parent.def.size == new IntVec2(3, 1))
                     {
-                        cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseH.SpawnAttached(parent, parent.Map);
+                        if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
+                        {
+                            cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseHx3.SpawnAttached(parent, parent.Map);
+                        }
+                        else
+                        {
+                            cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseVx3.SpawnAttached(parent, parent.Map);
+                        }
                     }
                     else
                     {
-                        cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseV.SpawnAttached(parent, parent.Map);
+                        if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
+                        {
+                            cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseH.SpawnAttached(parent, parent.Map);
+                        }
+                        else
+                        {
+                            cachedTwinkleEffector = EffecterDefOf.battiepatch_TwinklePulseV.SpawnAttached(parent, parent.Map);
+                        }
                     }
                 }
 
@@ -210,34 +224,70 @@ namespace BattIePatch_Lockdown
             {
                 if (cachedGlowEffector == null)
                 {
-                    if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
+                    if (parent.def.size == new IntVec2(3, 1))
                     {
-                        switch (sector)
+                        if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
                         {
-                            case CompSealable.Sector.Red:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseH.SpawnAttached(parent, parent.Map);
-                                break;
-                            case CompSealable.Sector.Blue:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseH.SpawnAttached(parent, parent.Map);
-                                break;
-                            case CompSealable.Sector.Yellow:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseH.SpawnAttached(parent, parent.Map);
-                                break;
+                            switch (sector)
+                            {
+                                case CompSealable.Sector.Red:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseHx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Blue:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseHx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Yellow:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseHx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            switch (sector)
+                            {
+                                case CompSealable.Sector.Red:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseVx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Blue:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseVx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Yellow:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseVx3.SpawnAttached(parent, parent.Map);
+                                    break;
+                            }
                         }
                     }
                     else
                     {
-                        switch (sector)
+                        if (parent.Rotation.AsInt == 0 || parent.Rotation.AsInt == 2)
                         {
-                            case CompSealable.Sector.Red:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseV.SpawnAttached(parent, parent.Map);
-                                break;
-                            case CompSealable.Sector.Blue:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseV.SpawnAttached(parent, parent.Map);
-                                break;
-                            case CompSealable.Sector.Yellow:
-                                cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseV.SpawnAttached(parent, parent.Map);
-                                break;
+                            switch (sector)
+                            {
+                                case CompSealable.Sector.Red:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseH.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Blue:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseH.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Yellow:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseH.SpawnAttached(parent, parent.Map);
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            switch (sector)
+                            {
+                                case CompSealable.Sector.Red:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_RedAlertPulseV.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Blue:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_BlueAlertPulseV.SpawnAttached(parent, parent.Map);
+                                    break;
+                                case CompSealable.Sector.Yellow:
+                                    cachedGlowEffector = EffecterDefOf.battiepatch_YellowAlertPulseV.SpawnAttached(parent, parent.Map);
+                                    break;
+                            }
                         }
                     }
                 }

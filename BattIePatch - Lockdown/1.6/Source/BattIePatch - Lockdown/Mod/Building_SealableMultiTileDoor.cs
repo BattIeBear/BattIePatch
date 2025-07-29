@@ -41,20 +41,41 @@ namespace BattIePatch_Lockdown
                     return cachedLightDrawPos;
                 }
 
-                switch (Rotation.AsInt)
+                if(sealableComp.parent.def.size == new IntVec2(3, 1))
                 {
-                    case 0:
-                        cachedLightDrawPos = new Vector3(.6f, 6f, .65f);
-                        break;
-                    case 1:
-                        cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
-                        break;
-                    case 2:
-                        cachedLightDrawPos = new Vector3(.6f, 6f, .65f);
-                        break;
-                    case 3:
-                        cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
-                        break;
+                    switch (Rotation.AsInt)
+                    {
+                        case 0:
+                            cachedLightDrawPos = new Vector3(1.1f, 6f, .65f);
+                            break;
+                        case 1:
+                            cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
+                            break;
+                        case 2:
+                            cachedLightDrawPos = new Vector3(1.1f, 6f, .65f);
+                            break;
+                        case 3:
+                            cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (Rotation.AsInt)
+                    {
+                        case 0:
+                            cachedLightDrawPos = new Vector3(.6f, 6f, .65f);
+                            break;
+                        case 1:
+                            cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
+                            break;
+                        case 2:
+                            cachedLightDrawPos = new Vector3(.6f, 6f, .65f);
+                            break;
+                        case 3:
+                            cachedLightDrawPos = new Vector3(0f, 6f, 1.2f);
+                            break;
+                    }
                 }
                 return cachedLightDrawPos;
             }

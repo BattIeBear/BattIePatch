@@ -26,6 +26,7 @@ Found an issue? Leave a comment!
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>ReBuild.COTR.DoorsAndCorners</li>
 	</loadAfter>
 
 </ModMetaData>

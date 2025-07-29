@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	
+	<!--1x2-->
 	<EffecterDef>
 		<defName>battiepatch_RedAlertPulseH</defName>
 		<children>
@@ -101,6 +102,111 @@
 				<ticksBetweenMotes>180</ticksBetweenMotes>
 				<spawnLocType>OnSource</spawnLocType>
 				<positionOffset>(-.025, 0, 1.75)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+	
+	<!--1x3-->
+	<EffecterDef>
+		<defName>battiepatch_RedAlertPulseHx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownRedPulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(1.05, 0, .7)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_YellowAlertPulseHx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownYellowPulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(1.05, 0, .7)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_BlueAlertPulseHx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownBluePulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(1.05, 0, .7)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_TwinklePulseHx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_Twinkle</fleckDef>
+				<ticksBetweenMotes>180</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(1.05, 0, .7)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_RedAlertPulseVx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownRedPulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(-.025, 0, 1.25)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_YellowAlertPulseVx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownYellowPulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(-.025, 0, 1.25)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_BlueAlertPulseVx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_LockdownBluePulse</fleckDef>
+				<ticksBetweenMotes>72</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(-.025, 0, 1.25)</positionOffset>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>battiepatch_TwinklePulseVx3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<fleckDef>battiepatch_Twinkle</fleckDef>
+				<ticksBetweenMotes>180</ticksBetweenMotes>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(-.025, 0, 1.25)</positionOffset>
 			</li>
 		</children>
 	</EffecterDef>
