@@ -1,9 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
 namespace BattIePatch_Lockdown
@@ -20,5 +15,15 @@ namespace BattIePatch_Lockdown
         public static EffecterDef battiepatch_BlueAlertPulseV;
         public static EffecterDef battiepatch_YellowAlertPulseV;
         public static EffecterDef battiepatch_TwinklePulseV;
+
+        public static EffecterDef battiepatch_RedAlertPulseHx3;
+        public static EffecterDef battiepatch_BlueAlertPulseHx3;
+        public static EffecterDef battiepatch_YellowAlertPulseHx3;
+        public static EffecterDef battiepatch_TwinklePulseHx3;
+
+        public static EffecterDef battiepatch_RedAlertPulseVx3;
+        public static EffecterDef battiepatch_BlueAlertPulseVx3;
+        public static EffecterDef battiepatch_YellowAlertPulseVx3;
+        public static EffecterDef battiepatch_TwinklePulseVx3;
     }
 }
