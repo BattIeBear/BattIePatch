@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BattIePatch: Better Morbid Recon Helmet</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.BetterMorbidRecon</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>V1.6
+
+A very small mod that fixes just how goofy the Morbid Recon Helmet looks. All it does is make the helmet's eye holes opaque, which makes it look much more like a helmet and less like a mask.
+
+This is purely a visual change and does not affect the helmet's stats or functionality in any way.
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+</ModMetaData>
