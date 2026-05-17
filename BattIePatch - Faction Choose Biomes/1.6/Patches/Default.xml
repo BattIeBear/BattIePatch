@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--MODIFICATIONS-->
+	<!--Outlander Civil Modifications-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderCivil"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>AridShrubland</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderCivil"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.25</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+	
+	<!--Outlander Rough Modifications-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderRough"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>Tundra</li>
+				<li>ColdBog</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>AridShrubland</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderRough"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.5</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+	
+	<!--Outlander Rough Pigskin Modifications (Biotech)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderRoughPig"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>Tundra</li>
+				<li>ColdBog</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalSwamp</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="OutlanderRoughPig"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.5</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Empire Modifications (Royalty)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="Empire"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>ColdBog</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="Empire"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.4</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Civil Modifications-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeCivil"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeCivil"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.3</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Nudist Modifications (Ideology)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="NudistTribe"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>TropicalSwamp</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="NudistTribe"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.3</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Rough Modifications-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeRough"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>ColdBog</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>TropicalSwamp</li>
+				<li>AridShrubland</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeRough"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.5</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+	
+	<!--Pirate Yttakin Modifications (Biotech)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="PirateYttakin"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>Tundra</li>
+				<li>ColdBog</li>
+				<li>IceSheet</li>
+				<li>SeaIce</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">GlacialPlain</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="PirateYttakin"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.6</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Pirate Waster Modifications (Biotech)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="PirateWaster"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>Tundra</li>
+				<li>ColdBog</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">GlacialPlain</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="PirateWaster"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.6</min>
+				<max>1.0</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Savage Modifications-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeSavage"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>BorealForest</li>
+				<li>ColdBog</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeSavage"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.6</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Savage Impid Modifications (Biotech)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeSavageImpid"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li>ExtremeDesert</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">LavaField</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeSavageImpid"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.6</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--Tribe Cannibal Modifications (Ideology)-->
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeCannibal"]/allowedBiomes
+		</xpath>
+		<value>
+			<allowedBiomes>
+				<li>ColdBog</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>TropicalSwamp</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+			</allowedBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes/li[factionDefName="TribeCannibal"]/pollutionTolerance</xpath>
+		<value>
+			<pollutionTolerance Class="FloatRange">
+				<min>0.0</min>
+				<max>0.6</max>
+			</pollutionTolerance>
+		</value>
+	</Operation>
+
+	<!--ADDITIONS-->
+	<!--Pirate Addition-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>Pirate</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li>TropicalRainforest</li>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.6</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Cannibal Pirate Addition (Ideology)-->
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>CannibalPirate</factionDefName>
+				<allowedBiomes>
+					<li>Tundra</li>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.6</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Tribe Neanderthal Rough Addition (Biotech)-->
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Biotech">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>TribeRoughNeanderthal</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>Tundra</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.5</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Tribe Impid Rough Addition (BattIeBear)-->
+	<Operation Class="PatchOperationAdd" MayRequire="BattIeBear.BioSynth.ImpidReimagined">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>BattIeBear_TribeRoughImpid</factionDefName>
+				<allowedBiomes>
+					<li>TropicalRainforest</li>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.5</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Kingdom Civil Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_KingdomCivil</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li>AridShrubland</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.3</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Kingdom Rough Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_KingdomRough</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li>AridShrubland</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.4</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Kingdom Savage Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_KingdomSavage</factionDefName>
+				<allowedBiomes>
+					<li>ColdBog</li>
+					<li>TemperateSwamp</li>
+					<li>TropicalRainforest</li>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.5</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Clan Civil Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_CivilClan</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.2</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Clan Rough Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_ClanRough</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>Tundra</li>
+					<li>ColdBog</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.3</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Clan Savage Addition (Medieval2)-->
+	<Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>VFEM2_ClanSavage</factionDefName>
+				<allowedBiomes>
+					<li>Tundra</li>
+					<li>IceSheet</li>
+					<li>SeaIce</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">GlacialPlain</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.4</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--High Elvish Kingdom Addition (Faction Elves)-->
+	<Operation Class="PatchOperationAdd" MayRequire="ICC.FOV.ELVES">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>HighElvishKingdom</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Grasslands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.2</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Dark Elvish Kingdom Addition (Faction Elves)-->
+	<Operation Class="PatchOperationAdd" MayRequire="ICC.FOV.ELVES">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>DarkElvishKingdom</factionDefName>
+				<allowedBiomes>
+					<li>TemperateSwamp</li>
+					<li>TropicalRainforest</li>
+					<li>TropicalSwamp</li>
+					<li>AridShrubland</li>
+					<li>Desert</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Glowforest</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.3</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Wild Elvish Tribe Addition (Faction Elves)-->
+	<Operation Class="PatchOperationAdd" MayRequire="ICC.FOV.ELVES">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>WildElvishTribe</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>ColdBog</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li>TropicalRainforest</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">GlacialPlain</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.2</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+
+	<!--Celestia Elvish Empire Addition (Faction Elves)-->
+	<Operation Class="PatchOperationAdd" MayRequire="ICC.FOV.ELVES">
+		<xpath>
+			/Defs/FactionsWithBiome.FactionBiomePreset[defName="Default"]/factionBiomes
+		</xpath>
+
+		<value>
+			<li>
+				<factionDefName>CelestiaElvishEmpire</factionDefName>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>Tundra</li>
+					<li>ColdBog</li>
+					<li>IceSheet</li>
+					<li>SeaIce</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Scarlands</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">GlacialPlain</li>
+				</allowedBiomes>
+				<allowedTileMutators />
+				<pollutionTolerance Class="FloatRange">
+					<min>0.0</min>
+					<max>0.3</max>
+				</pollutionTolerance>
+			</li>
+		</value>
+	</Operation>
+	
+</Patch>
