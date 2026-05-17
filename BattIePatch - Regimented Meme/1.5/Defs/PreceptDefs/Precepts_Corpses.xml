@@ -7,7 +7,7 @@
 		<defName>BattIePatch_Corpses_Tolerable</defName>
 		<issue>Corpses</issue>
 		<label>tolerable</label>
-		<description>The sight of a dead person is horrible, but unfortunately a regular occurrence on a Rimworld.</description>
+		<description>The sight of a dead person is horrible, but unfortunately a regular occurrence on a RimWorld.</description>
 		<impact>Low</impact>
 		<displayOrderInIssue>15</displayOrderInIssue>
 		<requiredMemes>
