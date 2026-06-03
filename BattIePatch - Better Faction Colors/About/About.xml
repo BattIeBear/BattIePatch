@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BattIePatch: Better Faction Colors</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.BetterFactionColors</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>V1.6
+
+
+
+Found an issue? Like my mod? Leave a comment!
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+	</loadAfter>
+</ModMetaData>

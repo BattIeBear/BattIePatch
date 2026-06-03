@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.6\Source\BattIePatch - Better Faction Colors\obj\Debug\BattIePatch - Better Faction Colors.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.6\Source\BattIePatch - Better Faction Colors\obj\Debug\BattIePatch - Better Faction Colors.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.6\Assemblies\BattIePatch - Better Faction Colors.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.6\Source\BattIePatch - Better Faction Colors\obj\Debug\BattIePatch - Better Faction Colors.dll
