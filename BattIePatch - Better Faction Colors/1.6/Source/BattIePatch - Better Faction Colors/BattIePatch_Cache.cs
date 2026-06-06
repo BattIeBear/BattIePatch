@@ -31,7 +31,7 @@ namespace BattIePatch_BetterFactionColors
 
                 if (def == null)
                 {
-                    return;
+                    continue;
                 }
 
                 if (!sources.Contains(def.modContentPack))
@@ -63,6 +63,26 @@ namespace BattIePatch_BetterFactionColors
                 }
 
                 ApplyNewFactionColors(def);
+            }
+
+            foreach (ModContentPack mod in sources)
+            {
+                if (sources.Contains(mod))
+                {
+                    bool found = false;
+                    foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
+                    {
+                        if (def.modContentPack == mod)
+                        {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found)
+                    {
+                        sources.Remove(mod);
+                    }
+                }
             }
         }
 

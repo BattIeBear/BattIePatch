@@ -1,6 +1,5 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
 using Verse;
 
@@ -16,15 +15,17 @@ namespace BattIePatch_BetterFactionColors
         {
             this.settings = GetSettings<BattIePatchBetterFactionColorsSettings>();
         }
-
+        private Vector2 scrollPosition = Vector2.zero;
+        bool showAll = false;
         ModContentPack curSource;
         ModContentPack extraSource;
-        List<FactionDef> mergedDefs;
+        List<FactionDef> defsToDraw = new List<FactionDef>();
         Dictionary<ModContentPack, List<FactionDef>> sourceToDefs = new Dictionary<ModContentPack, List<FactionDef>>();
         Color copyColorPrimary;
         Color copyColorSecondary;
         string factionSearch = "";
-
+        string storedSearch = "";
+        float midwayStartX = 0f;
         /// The (optional) GUI part to set your settings.
         public override void DoSettingsWindowContents(Rect inRect)
         {
@@ -37,18 +38,27 @@ namespace BattIePatch_BetterFactionColors
             float x = sourceRow.x;
             float y = sourceRow.y;
             float h = sourceRow.height;
-            Rect sourceRect = new Rect(x, y, sourceRow.width / 5f, h);
-            Rect extraRect = new Rect(x + sourceRow.width / 5f + 10, y, sourceRow.width / 5f - 10, h);
-            Rect eraseRect = new Rect(x + sourceRow.width / 5f * 2f + 10, y, y, h);
-            Widgets.Label(new Rect(x + sourceRow.width / 2f, y + (y / 2.8f), 50f, h), "Search".Translate());
-
-            factionSearch = Widgets.TextField(new Rect(x + sourceRow.width / 2f + 55, y, sourceRow.width / 2f - 55, h), factionSearch);
+            Rect allRect = new Rect(x, y, 40f, h);
+            float labelWidth = (sourceRow.width / 4f) - 55f;
+            if (midwayStartX == 0f)
+            {
+                midwayStartX = (sourceRow.width / 2) - 5f;
+            }
+            float spaceBetween = (midwayStartX - ((labelWidth * 2) + 80)) / 3f;
+            if (Widgets.ButtonText(allRect, "BattIePatch_BetterFactionColors_All".Translate()))
+            {
+                showAll = !showAll;
+                defsToDraw.Clear();
+            }
 
             if (curSource == null)
             {
                 curSource = BattIePatch_Cache.sources[0];
             }
 
+            x += 40f + spaceBetween;
+            Rect sourceRect = new Rect(x, y, labelWidth, h);
+            // First Button
             if (Widgets.ButtonText(sourceRect, curSource.Name))
             {
                 var options = new List<FloatMenuOption>();
@@ -62,10 +72,8 @@ namespace BattIePatch_BetterFactionColors
                         () =>
                         {
                             curSource = source;
-                            if (mergedDefs != null)
-                            {
-                                mergedDefs.Clear();
-                            }
+                            showAll = false;
+                            defsToDraw.Clear();
                             if (extraSource != null && extraSource == curSource)
                             {
                                 extraSource = null;
@@ -77,7 +85,10 @@ namespace BattIePatch_BetterFactionColors
                 Find.WindowStack.Add(new FloatMenu(options));
             }
 
-            if (Widgets.ButtonText(extraRect, extraSource != null ? extraSource.Name : "Select Extra".Translate().ToString()))
+            x += labelWidth + spaceBetween;
+            Rect extraRect = new Rect(x, y, labelWidth, h);
+            // Second Button
+            if (Widgets.ButtonText(extraRect, extraSource != null ? extraSource.Name : "BattIePatch_BetterFactionColors_SelectExtra".Translate().ToString()))
             {
                 var options = new List<FloatMenuOption>();
                 foreach (ModContentPack source in BattIePatch_Cache.sources)
@@ -86,10 +97,8 @@ namespace BattIePatch_BetterFactionColors
                         () =>
                         {
                             extraSource = source;
-                            if (mergedDefs != null)
-                            {
-                                mergedDefs.Clear();
-                            }
+                            showAll = false;
+                            defsToDraw.Clear();
                             if (extraSource != null && extraSource == curSource)
                             {
                                 extraSource = null;
@@ -100,19 +109,34 @@ namespace BattIePatch_BetterFactionColors
 
                 Find.WindowStack.Add(new FloatMenu(options));
             }
-
-            if (Widgets.ButtonText(eraseRect, " X"))
+            x += labelWidth + spaceBetween;
+            Rect eraseRect = new Rect(x, y, 40f, h);
+            // Third Button
+            if (Widgets.ButtonText(eraseRect, "BattIePatch_BetterFactionColors_X".Translate()))
             {
                 extraSource = null;
-                if (mergedDefs != null)
-                {
-                    mergedDefs.Clear();
-                }
+                defsToDraw.Clear();
+                showAll = false;
+                GUI.FocusControl(null);
+                factionSearch = "";
+                storedSearch = "";
             }
+            x = midwayStartX + 10;
+            //Search bar
+            Widgets.Label(new Rect(x, y + (y / 2.8f), 50f, h), "BattIePatch_BetterFactionColors_Search".Translate());
+            x += 55f;
+            factionSearch = Widgets.TextField(new Rect(x, y, sourceRow.width / 2f - 60, h), factionSearch);
 
             listingStandard.GapLine();
+            
+            if (factionSearch != storedSearch)
+            {
+                showAll = false;
+                defsToDraw.Clear();
+                storedSearch = "";
+            }
 
-            if (factionSearch != "")
+            if (showAll && defsToDraw.Count == 0)
             {
                 foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
                 {
@@ -120,19 +144,53 @@ namespace BattIePatch_BetterFactionColors
                     {
                         continue;
                     }
-                    if (def.label.Contains(factionSearch))
-                    {
-                        Rect FactionRow = listingStandard.GetRect(40f);
-                        CreatGradientRow(def, FactionRow);
-                    }
+
+                    defsToDraw.AddUnique(def);
                 }
+            }
+            else if (defsToDraw != null && defsToDraw.Count > 0)
+            {
+                Rect scrollOutRect = listingStandard.GetRect(inRect.height - listingStandard.CurHeight - 60f);
+                float contentHeight = Mathf.Max(defsToDraw.Count * 40f, scrollOutRect.height);
+
+                Rect scrollViewRect = new Rect(0f, 0f, scrollOutRect.width - 16f, contentHeight);
+
+                Widgets.BeginScrollView(scrollOutRect, ref scrollPosition, scrollViewRect);
+
+                Listing_Standard scrollListing = new Listing_Standard();
+                scrollListing.Begin(scrollViewRect);
+                foreach (FactionDef def in defsToDraw)
+                {
+                    Rect factionRow = scrollListing.GetRect(40f);
+                    CreateGradientRow(def, factionRow);
+                }
+                scrollListing.End();
+                Widgets.EndScrollView();
             }
             else
             {
-                if (extraSource == null)
+                defsToDraw.Clear();
+                showAll = false;
+                if (factionSearch != "")
+                {
+                    storedSearch = factionSearch;
+                    foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
+                    {
+                        if (def.hidden || def.isPlayer)
+                        {
+                            continue;
+                        }
+                        if (def.label.ToLower().Contains(factionSearch.ToLower()))
+                        {
+                            defsToDraw.AddUnique(def);
+                        }
+                    }
+                }
+                else
                 {
                     if (sourceToDefs.Count == 0 || sourceToDefs.ContainsKey(curSource) == false)
                     {
+                        sourceToDefs[curSource] = new List<FactionDef>();
                         foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
                         {
                             if (def.hidden || def.isPlayer)
@@ -141,13 +199,17 @@ namespace BattIePatch_BetterFactionColors
                             }
                             if (def.modContentPack == curSource)
                             {
-                                if (sourceToDefs.ContainsKey(curSource) == false)
-                                {
-                                    sourceToDefs[curSource] = new List<FactionDef>();
-                                }
                                 sourceToDefs[curSource].Add(def);
                             }
                         }
+
+                        //if (sourceToDefs[curSource].Count == 0)
+                        //{
+                        //    curSource = null;
+                        //    sourceToDefs.Remove(curSource);
+                        //    BattIePatch_Cache.sources.Remove(curSource);
+                        //    return;
+                        //}
                     }
 
                     foreach (FactionDef def in sourceToDefs[curSource])
@@ -156,66 +218,43 @@ namespace BattIePatch_BetterFactionColors
                         {
                             continue;
                         }
-                        Rect FactionRow = listingStandard.GetRect(40f);
-                        CreatGradientRow(def, FactionRow);
-                    }
-                }
-                else
-                {
-                    if (sourceToDefs.Count == 0 || sourceToDefs.ContainsKey(curSource) == false)
-                    {
-                        foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
-                        {
-                            if (def.hidden || def.isPlayer)
-                            {
-                                continue;
-                            }
-                            if (def.modContentPack == curSource)
-                            {
-                                if (sourceToDefs.ContainsKey(curSource) == false)
-                                {
-                                    sourceToDefs[curSource] = new List<FactionDef>();
-                                }
-                                sourceToDefs[curSource].Add(def);
-                            }
-                        }
+                        defsToDraw.AddUnique(def);
                     }
 
-                    if (sourceToDefs.ContainsKey(extraSource) == false)
+                    if(extraSource != null)
                     {
-                        foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
+                        if (sourceToDefs.ContainsKey(extraSource) == false)
                         {
-                            if (def.hidden || def.isPlayer)
+                            sourceToDefs[extraSource] = new List<FactionDef>();
+                            foreach (FactionDef def in DefDatabase<FactionDef>.AllDefs)
                             {
-                                continue;
-                            }
-                            if (def.modContentPack == extraSource)
-                            {
-                                if (sourceToDefs.ContainsKey(extraSource) == false)
+                                if (def.hidden || def.isPlayer)
                                 {
-                                    sourceToDefs[extraSource] = new List<FactionDef>();
+                                    continue;
                                 }
-                                sourceToDefs[extraSource].Add(def);
+                                if (def.modContentPack == extraSource)
+                                {
+                                    sourceToDefs[extraSource].Add(def);
+                                }
                             }
+
+                            //if (sourceToDefs[extraSource].Count == 0)
+                            //{
+                            //    extraSource = null;
+                            //    sourceToDefs.Remove(extraSource);
+                            //    BattIePatch_Cache.sources.Remove(extraSource);
+                            //    return;
+                            //}
                         }
-                    }
-                    if (mergedDefs == null || mergedDefs.Count == 0)
-                    {
-                        mergedDefs = new List<FactionDef>();
-                        mergedDefs.AddRange(sourceToDefs[curSource]);
-                        mergedDefs.AddRange(sourceToDefs[extraSource]);
-                    }
-                    foreach (FactionDef def in mergedDefs)
-                    {
-                        if (def.hidden || def.isPlayer)
+
+                        foreach (FactionDef def in sourceToDefs[extraSource])
                         {
-                            continue;
+                            defsToDraw.AddUnique(def);
                         }
-                        Rect FactionRow = listingStandard.GetRect(40f);
-                        CreatGradientRow(def, FactionRow);
                     }
                 }
             }
+
             listingStandard.GapLine();
 
             listingStandard.Label("BattIePatch_BetterFactionColors_BottomWarning".Translate());
@@ -230,24 +269,34 @@ namespace BattIePatch_BetterFactionColors
             return "BattIePatch_BetterFactionColors_ModName".Translate();
         }
 
-        private void CreatGradientRow(FactionDef def, Rect row)
+        private void CreateGradientRow(FactionDef def, Rect row)
         {
             if (def == null)
             {
                 return;
             }
             // color settings row
-
-            List<Color> defColors = BattIePatch_Cache.defNameToColors[def.defName];
+            List<Color> defColors = new List<Color>();
+            if (BattIePatch_Cache.defNameToColors.ContainsKey(def.defName))
+            {
+                defColors = BattIePatch_Cache.defNameToColors[def.defName];
+            }
+            else
+            {
+                Log.Error("Def " + def.defName + " from " + def.modContentPack.Name + " was not found in BattIePatch_Cache.defNameToColors. This should not happen. Please report this to the mod author.");
+                return;
+            }
+             
 
             float x = row.x;
             float y = row.y;
             float h = row.height;
 
-            Rect labelRect = new Rect(x, y, row.size.x / 2f, h);
+            Rect labelRect = new Rect(x, y, midwayStartX - 40f, h);
             Widgets.Label(labelRect, def.label);
 
-            x += row.size.x / 2f;
+            x += midwayStartX - 40f;
+            float rowSpace = row.width - (midwayStartX - 40f);
 
             Rect primaryRect = new Rect(x, y, 40f, h);
 
@@ -264,9 +313,9 @@ namespace BattIePatch_BetterFactionColors
                 }));
             }
 
-            x += 45f;
+            x += primaryRect.width + 5f;
 
-            Rect gradRect = new Rect(x, y, 120f, h);
+            Rect gradRect = new Rect(x, y, rowSpace - 303f, h);
 
             if (defColors[3].a != 0)
             {
@@ -289,7 +338,7 @@ namespace BattIePatch_BetterFactionColors
                 Widgets.DrawBoxSolid(gradRect, defColors[2]);
             }
 
-            x += 125f;
+            x += gradRect.width + 5f;
 
             Rect secondaryRect = new Rect(x, y, 40f, h);
 
@@ -312,12 +361,12 @@ namespace BattIePatch_BetterFactionColors
                 }));
             }
 
-            x += 45f;
+            x += secondaryRect.width + 4f;
 
             Rect clearRect = new Rect(x, y, 50f, h);
             if (defColors[3].a == 0)
             {
-                if (Widgets.ButtonText(clearRect, "Grad".Translate()))
+                if (Widgets.ButtonText(clearRect, "BattIePatch_BetterFactionColors_Ease".Translate()))
                 {
                     Color c = defColors[3];
                     c.a = 1;
@@ -327,7 +376,7 @@ namespace BattIePatch_BetterFactionColors
             }
             else
             {
-                if (Widgets.ButtonText(clearRect, "Mono".Translate()))
+                if (Widgets.ButtonText(clearRect, "BattIePatch_BetterFactionColors_Single".Translate()))
                 {
                     Color c = defColors[3];
                     c.a = 0;
@@ -336,40 +385,41 @@ namespace BattIePatch_BetterFactionColors
                 }
             }
 
-            x += 55f;
+            x += clearRect.width + 3f;
 
             Rect resetRect = new Rect(x, y, 50f, h);
 
-            if (Widgets.ButtonText(resetRect, "Reset".Translate()))
+            if (Widgets.ButtonText(resetRect, "BattIePatch_BetterFactionColors_Reset".Translate()))
             {
                 defColors[2] = defColors[0];
                 defColors[3] = defColors[1];
                 BattIePatch_Cache.ApplyNewFactionColors(def);
             }
 
-            x += 55f;
+            x += resetRect.width + 3f;
 
             Rect copyRect = new Rect(x, y, 50f, h);
 
-            if (Widgets.ButtonText(copyRect, "Copy".Translate()))
+            if (Widgets.ButtonText(copyRect, "BattIePatch_BetterFactionColors_Copy".Translate()))
             {
                 copyColorPrimary = defColors[2];
                 copyColorSecondary = defColors[3];
             }
 
-            x += 55f;
+            x += copyRect.width + 3f;
 
             Rect pasteRect = new Rect(x, y, 50f, h);
 
-            if (Widgets.ButtonText(pasteRect, "Paste".Translate()))
+            if (Widgets.ButtonText(pasteRect, "BattIePatch_BetterFactionColors_Paste".Translate()))
             {
-                if (copyColorPrimary == null || copyColorSecondary == null)
+                if (copyColorPrimary.a == 0 && copyColorSecondary.a == 0)
                 {
                     return;
                 }
 
                 defColors[2] = copyColorPrimary;
                 defColors[3] = copyColorSecondary;
+                BattIePatch_Cache.ApplyNewFactionColors(def);
             }
         }
     }

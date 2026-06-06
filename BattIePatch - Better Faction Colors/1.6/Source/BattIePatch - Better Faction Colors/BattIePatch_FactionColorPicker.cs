@@ -58,7 +58,7 @@ namespace BattIePatch_BetterFactionColors
 
             //(Hex input HERE)
             Rect hexRow = listingStandard.GetRect(24f);
-            Widgets.Label(new Rect(hexRow.x, hexRow.y, 40f, hexRow.height), "Hexcode".Translate());
+            Widgets.Label(new Rect(hexRow.x, hexRow.y, 40f, hexRow.height), "BattIePatch_BetterFactionColors_Hexcode".Translate());
             hexInput = Widgets.TextField(new Rect(hexRow.x + 45f, hexRow.y, hexRow.width - 45f, hexRow.height), hexInput);
 
             bool sliderChanged = !(Mathf.Approximately(red, lastR) && Mathf.Approximately(green, lastG) && Mathf.Approximately(blue, lastB));
@@ -83,7 +83,7 @@ namespace BattIePatch_BetterFactionColors
                     clean = clean.Substring(1);
                 }
 
-                // Only accept full RGB hex (6 chars)
+                // Only accept full hex (6 chars) not counting spaces or hashtags
                 if (clean.Length == 6 && ColorUtility.TryParseHtmlString("#" + clean, out Color parsed))
                 {
                     color = new Color(parsed.r, parsed.g, parsed.b, 1f);

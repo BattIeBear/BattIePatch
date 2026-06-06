@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_BetterFactionColors_ModName>BattIePatch - Better Faction Colors</BattIePatch_BetterFactionColors_ModName>
+	<BattIePatch_BetterFactionColors_TopWarning>Changing these options will require restarting the game to apply. Changes here will not affect already created factions.</BattIePatch_BetterFactionColors_TopWarning>
+	<BattIePatch_BetterFactionColors_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_BetterFactionColors_BottomWarning>
+	
+	<BattIePatch_BetterFactionColors_All>All</BattIePatch_BetterFactionColors_All>
+	<BattIePatch_BetterFactionColors_SelectExtra>Additional Source</BattIePatch_BetterFactionColors_SelectExtra>
+	<BattIePatch_BetterFactionColors_X>X</BattIePatch_BetterFactionColors_X>
+	<BattIePatch_BetterFactionColors_Search>Search</BattIePatch_BetterFactionColors_Search>
+	<BattIePatch_BetterFactionColors_Ease>Ease</BattIePatch_BetterFactionColors_Ease>
+	<BattIePatch_BetterFactionColors_Single>Mono</BattIePatch_BetterFactionColors_Single>
+	<BattIePatch_BetterFactionColors_Reset>Reset</BattIePatch_BetterFactionColors_Reset>
+	<BattIePatch_BetterFactionColors_Copy>Copy</BattIePatch_BetterFactionColors_Copy>
+	<BattIePatch_BetterFactionColors_Paste>Paste</BattIePatch_BetterFactionColors_Paste>
+	<BattIePatch_BetterFactionColors_Hexcode>Hex</BattIePatch_BetterFactionColors_Hexcode>
+	
+
+</LanguageData>
