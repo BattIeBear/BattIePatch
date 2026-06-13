@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BattIePatch: Tend Again</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BattIePatch.TendAgain</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>V1.6
+
+Tired of trying to fight an infection and suddenly someone besides your main doctor tends for 0%? Suddenly get a harvest of healroot and want to redo some of those nasty wounds? Want to stave off the plague but you keep getting awful RNG?
+
+This mod lets you tend wounds, infections, and diseases again until they meet your minimum quality threshold. It works automatically, and is highly customizable so you can tend different conditions to different thresholds, plus choose whether or not these thresholds apply to guests, prisoners, slaves, and animals.
+
+To avoid consuming all of your medicine, it is recommended to keep the minimum quality threshold around 10%, unless you have a surplus of high quality medicine or skilled doctors.
+
+Found an issue? Enjoy the mod? Leave a comment!
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.Ideology</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_TendAgain_ModName>BattIePatch - Tend Again</BattIePatch_TendAgain_ModName>
+	<BattIePatch_TendAgain_TopWarning>Changing these options may require restarting the game to apply. Some changes may not apply to pawns that have already spawned.</BattIePatch_TendAgain_TopWarning>
+	<BattIePatch_TendAgain_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_TendAgain_BottomWarning>
+
+	<BattIePatch_TendAgain_Label1>Tend Options</BattIePatch_TendAgain_Label1>
+	<BattIePatch_TendAgain_TendAgainCheck>Retend Injuries: </BattIePatch_TendAgain_TendAgainCheck>
+	<BattIePatch_TendAgain_TendAgainCheckDesc>Allow injures to be retended if less than the quality set below.</BattIePatch_TendAgain_TendAgainCheckDesc>
+	<BattIePatch_TendAgain_TendAgain>Minimum Injury Quality: </BattIePatch_TendAgain_TendAgain>
+	<BattIePatch_TendAgain_TendAgainDesc>Injuries tended below this level will be redone.</BattIePatch_TendAgain_TendAgainDesc>
+	<BattIePatch_TendAgain_TendAgainCheckDisease>Retend Diseases: </BattIePatch_TendAgain_TendAgainCheckDisease>
+	<BattIePatch_TendAgain_TendAgainCheckDiseaseDesc>Allow diseases to be retended if less than the quality set below.</BattIePatch_TendAgain_TendAgainCheckDiseaseDesc>
+	<BattIePatch_TendAgain_TendAgainDisease>Minimum Disease Quality: </BattIePatch_TendAgain_TendAgainDisease>
+	<BattIePatch_TendAgain_TendAgainDiseaseDesc>Diseases tended below this level will be redone.</BattIePatch_TendAgain_TendAgainDiseaseDesc>
+	<BattIePatch_TendAgain_TendAgainCheckInfection>Retend Infections: </BattIePatch_TendAgain_TendAgainCheckInfection>
+	<BattIePatch_TendAgain_TendAgainCheckInfectionDesc>Allow Infections to be retended if less than the quality set below.</BattIePatch_TendAgain_TendAgainCheckInfectionDesc>
+	<BattIePatch_TendAgain_TendAgainInfection>Minimum Infection Quality: </BattIePatch_TendAgain_TendAgainInfection>
+	<BattIePatch_TendAgain_TendAgainInfectionDesc>Infections tended below this level will be redone.</BattIePatch_TendAgain_TendAgainInfectionDesc>
+	<BattIePatch_TendAgain_Append>Current tend quality too low, set to be redone.</BattIePatch_TendAgain_Append>
+	<BattIePatch_TreatAgain_Append>Current treatment quality too low, set to be redone.</BattIePatch_TreatAgain_Append>
+
+	<BattIePatch_TendAgain_Label2>Non-Colonist Options</BattIePatch_TendAgain_Label2>
+	<BattIePatch_TendAgain_TendAgainGuests>Retend Guests: </BattIePatch_TendAgain_TendAgainGuests>
+	<BattIePatch_TendAgain_TendAgainGuestsDesc>Allows guests and allies of the colony to be retended.</BattIePatch_TendAgain_TendAgainGuestsDesc>
+	<BattIePatch_TendAgain_TendAgainPrisoners>Retend Prisoners: </BattIePatch_TendAgain_TendAgainPrisoners>
+	<BattIePatch_TendAgain_TendAgainPrisonersDesc>Allows colony prisoners to be retended.</BattIePatch_TendAgain_TendAgainPrisonersDesc>
+	<BattIePatch_TendAgain_TendAgainSlaves>Retend Slaves: </BattIePatch_TendAgain_TendAgainSlaves>
+	<BattIePatch_TendAgain_TendAgainSlavesDesc>Allows colony slaves to be retended.</BattIePatch_TendAgain_TendAgainSlavesDesc>
+	<BattIePatch_TendAgain_TendAgainAnimals>Retend Animals: </BattIePatch_TendAgain_TendAgainAnimals>
+	<BattIePatch_TendAgain_TendAgainAnimalsDesc>Allows colony animals to be retended.</BattIePatch_TendAgain_TendAgainAnimalsDesc>
+
+
+
+</LanguageData>
