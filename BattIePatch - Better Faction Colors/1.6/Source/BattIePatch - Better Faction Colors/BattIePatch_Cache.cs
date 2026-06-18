@@ -61,6 +61,22 @@ namespace BattIePatch_BetterFactionColors
                     defNameToColors[def.defName] = defColors;
                     settings.factionColorEntries.Add(new BattIePatch_FactionColorEntry {factionDefName = def.defName, colors = defColors});
                 }
+                else
+                {
+                    List<Color> defColors = defNameToColors[def.defName];
+                    if (def.colorSpectrum != null && def.colorSpectrum.Count > 0)
+                    {
+                        defColors[0] = def.colorSpectrum[0];
+                        if (def.colorSpectrum.Count > 1)
+                        {
+                            defColors[1] = def.colorSpectrum[1];
+                        }
+                        else
+                        {
+                            defColors[1] = Color.clear;
+                        }
+                    }
+                }
 
                 ApplyNewFactionColors(def);
             }
