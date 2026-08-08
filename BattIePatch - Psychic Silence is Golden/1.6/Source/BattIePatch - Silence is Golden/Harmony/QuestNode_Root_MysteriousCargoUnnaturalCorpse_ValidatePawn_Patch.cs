@@ -6,7 +6,7 @@ using Verse;
 namespace BattIePatch_SilenceIsGolden
 {
     [HarmonyPatch(typeof(QuestNode_Root_MysteriousCargoUnnaturalCorpse), "ValidatePawn")]
-    class QuestNode_Root_MysteriousCargoUnnaturalCorpse_ValidatePawn_Patch
+    public class QuestNode_Root_MysteriousCargoUnnaturalCorpse_ValidatePawn_Patch
     {
         public static bool Postfix(bool ___result, ref Pawn pawn)
         {

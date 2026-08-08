@@ -8,11 +8,11 @@ using Verse;
 namespace BattIePatch_SilenceIsGolden
 {
     [HarmonyPatch(typeof(RevenantUtility), nameof(RevenantUtility.ScanForTarget))]
-    class RevenantUtility_ScanForTarget_NewTemp_Patch
+    public class RevenantUtility_ScanForTarget_NewTemp_Patch
     {
         public static bool Prefix(Pawn pawn, ref Pawn __result, ref bool forced)
         {
-            if (!BattIePatchSilenceIsGoldenSettings.WeightedMode)
+            if (BattIePatchSilenceIsGoldenSettings.WeightedMode == false)
             {
                 return true;
             }

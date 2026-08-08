@@ -6,7 +6,7 @@ using Verse;
 namespace BattIePatch_SilenceIsGolden
 {
     [HarmonyPatch(typeof(CompRevenant), nameof(CompRevenant.Hypnotize))]
-    class CompRevenant_Hypnotize_Patch
+    public class CompRevenant_Hypnotize_Patch
     {
 
         public static bool Prefix(CompRevenant __instance, ref Pawn victim)

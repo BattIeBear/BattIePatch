@@ -5,7 +5,7 @@ using Verse;
 namespace BattIePatch_SilenceIsGolden
 {
     [HarmonyPatch(typeof(RevenantUtility), nameof(RevenantUtility.ValidTarget))]
-    class RevenantUtility_ValidTarget_Patch
+    public class RevenantUtility_ValidTarget_Patch
     {
         public static bool Postfix(bool ___result, ref Pawn pawn)
         {

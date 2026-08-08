@@ -29,7 +29,6 @@ namespace BattIePatch_SilenceIsGolden
 
             listingStandard.Label("BattIePatch_SilenceIsGolden_Lable1".Translate());
             listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_GoldenCubeImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.GoldenCubeImmunity, "BattIePatch_SilenceIsGolden_GoldenCubeImmunityDesc".Translate());
-            listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.UnnaturalCorpseImmunity, "BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc".Translate());
             listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity, "BattIePatch_SilenceIsGolden_RevenantHypnosisTrueImmunityDesc".Translate());
             if (BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity)
             {
@@ -40,6 +39,8 @@ namespace BattIePatch_SilenceIsGolden
             {
                 BattIePatchSilenceIsGoldenSettings.RevenantHypnosisTrueImmunity = false;
             }
+            listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_SightstealerImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.SightstealerImmunity, "BattIePatch_SilenceIsGolden_SightstealerImmunityDesc".Translate());
+            listingStandard.CheckboxLabeled("BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunity".Translate(), ref BattIePatchSilenceIsGoldenSettings.UnnaturalCorpseImmunity, "BattIePatch_SilenceIsGolden_UnnaturalCorpseImmunityDesc".Translate());
 
             listingStandard.Gap();
             listingStandard.GapLine();

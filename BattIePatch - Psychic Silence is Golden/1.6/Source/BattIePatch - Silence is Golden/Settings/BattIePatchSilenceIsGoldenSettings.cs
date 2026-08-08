@@ -9,6 +9,7 @@ namespace BattIePatch_SilenceIsGolden
         public static bool UnnaturalCorpseImmunity = true;
         public static bool RevenantHypnosisTrueImmunity = false;
         public static bool RevenantHypnosisImmunity = true;
+        public static bool SightstealerImmunity = true;
         public static bool WeightedMode = false;
 
 
@@ -20,6 +21,7 @@ namespace BattIePatch_SilenceIsGolden
             Scribe_Values.Look(ref UnnaturalCorpseImmunity, "UnnaturalCorpseImmunity");
             Scribe_Values.Look(ref RevenantHypnosisTrueImmunity, "RevenantHypnosisTrueImmunity");
             Scribe_Values.Look(ref RevenantHypnosisImmunity, "RevenantHypnosisImmunity");
+            Scribe_Values.Look(ref SightstealerImmunity, "SightstealerImmunity");
             Scribe_Values.Look(ref WeightedMode, "WeightedMode");
             base.ExposeData();
         }
