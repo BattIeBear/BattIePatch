@@ -7,6 +7,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -15,7 +16,8 @@
 			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>V1.6
+	<description>
+V1.7
 
 A very small mod that fixes just how goofy the Morbid Recon Helmet looks. All it does is make the helmet's eye holes opaque, which makes it look much more like a helmet and less like a mask.
 

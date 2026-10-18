@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Test-->
+	<Operation Class="BattIePatch_EnhancedBioregeneration.LessenedRegenerationSettings">
+		<DefaultRegeneration Class ="PatchOperationSequence">
+			<operations>
+				<li Class="BattIePatch_EnhancedBioregeneration.HealAllConditionsSettings">
+					<HealAll Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/description</xpath>
+						<value>
+							<description>Heal all fresh wounds and scars, heal all random permanent injuries, and restore any missing body parts.</description>
+						</value>
+					</HealAll>
+					<DefaultHeal Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/description</xpath>
+						<value>
+							<description>Heal all fresh wounds and scars, heal one random permanent injury, and restore any missing body parts.</description>
+						</value>
+					</DefaultHeal>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/bodyPartsToRestore</xpath>
+					<value>
+						<li>Jaw</li>
+						<li>Lung</li>
+						<li>Heart</li>
+						<li>Kidney</li>
+						<li>Liver</li>
+						<li>Stomach</li>
+						<li>Head</li>
+						<li>Skull</li>
+						<li>Brain</li>
+						<li>Neck</li>
+						<li>Ribcage</li>
+						<li>Spine</li>
+						<li>Leg</li>
+						<li>Foot</li>
+						<li>Torso</li>
+						<li>Shoulder</li>
+						<li>Arm</li>
+						<li>Hand</li>
+						<li>Waist</li>
+						<li>Clavicle</li>
+						<li>Sternum</li>
+						<li>Humerus</li>
+						<li>Radius</li>
+						<li>Pelvis</li>
+						<li>Femur</li>
+						<li>Tibia</li>
+					</value>
+				</li>
+			</operations>
+		</DefaultRegeneration>
+		<LessenedRegeneration Class="BattIePatch_EnhancedBioregeneration.HealAllConditionsSettings">
+			<HealAll Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/description</xpath>
+				<value>
+					<description>Heal all fresh wounds and scars, heal all random permanent injuries, restore all minor missing body parts like fingers and toes, and regenerate one major part like an arm or an organ.</description>
+				</value>
+			</HealAll>
+			<DefaultHeal Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/description</xpath>
+				<value>
+					<description>Heal all fresh wounds and scars, heal one random permanent injury, restore all minor missing body parts like fingers and toes, and regenerate one major part like an arm or an organ.</description>
+				</value>
+			</DefaultHeal>
+		</LessenedRegeneration>
+	</Operation>
+
+
+
+	<!--Adds the Extra Time Requirement-->
+	<Operation Class="BattIePatch_EnhancedBioregeneration.TimeDificultySettings">
+		<ExtraTime Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/durationDays</xpath>
+			<value>
+				<durationDays>30</durationDays>
+			</value>
+		</ExtraTime>
+	</Operation>
+
+	<!--Adds the Extra Medicine Requirement-->
+	<Operation Class="BattIePatch_EnhancedBioregeneration.MedsDificultySettings">
+		<ExtraMeds Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[key="bioregeneration"]/extraRequiredIngredients/MedicineUltratech</xpath>
+			<value>
+				<MedicineUltratech>4</MedicineUltratech>
+			</value>
+		</ExtraMeds>
+	</Operation>
+
+</Patch>

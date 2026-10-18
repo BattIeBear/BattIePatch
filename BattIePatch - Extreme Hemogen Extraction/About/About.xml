@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 This mod adds a new prisoner interaction called "Allow Bloodloss Coma" to the game which, when selected alongside "Extract Hemogen", will cause the pawn to be drained of almost all their blood. The pawn will be kept unconscious due to bloodloss until they are either allowed to heal or die.
 	

@@ -5,8 +5,10 @@
 	<packageId>BattIeBear.BattIePatch.BetterFactionColors</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
-	<description>V1.6
+	<description>
+V1.7
 
 A mod built out of my single-minded hate for creating a world only to find all enemy factions decided to be pastel pink... again. This mod lets you customize the colors of your factions, making each faction exactly how you want. Designed to be compatible with any and all mods that changes or add new factions, though this mod should be loaded after them for best compatibility.
 
