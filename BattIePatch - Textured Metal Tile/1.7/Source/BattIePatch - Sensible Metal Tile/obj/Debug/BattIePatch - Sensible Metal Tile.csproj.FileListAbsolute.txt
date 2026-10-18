@@ -1,0 +1,12 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\Assemblies\BattIePatch - Sensible Metal Tile.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Sensible Metal Tile\1.6\Assemblies\BattIePatch - Sensible Metal Tile.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Textured Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Textured Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Textured Metal Tile\1.6\Source\BattIePatch - Sensible Metal Tile\obj\Debug\BattIePatch - Sensible Metal Tile.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Textured Metal Tile\1.6\Assemblies\BattIePatch - Sensible Metal Tile.dll

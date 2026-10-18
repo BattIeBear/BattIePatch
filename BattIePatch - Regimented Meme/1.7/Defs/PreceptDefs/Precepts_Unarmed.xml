@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Issues -->
+
+	<IssueDef>
+		<defName>BattIePatch_Armed</defName>
+		<label>armed</label>
+		<iconPath>UI/Issues/Armed</iconPath>
+	</IssueDef>
+
+	<!-- Precepts -->
+
+	<PreceptDef>
+		<defName>BattIePatch_Armed_Mandatory</defName>
+		<issue>BattIePatch_Armed</issue>
+		<label>mandatory</label>
+		<description>We must be armed at all times, both to protect ourselves and those around us.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>130</displayOrderInIssue>
+		<displayOrderInImpact>750</displayOrderInImpact>
+		<associatedMemes>
+			<li>BattIePatch_Regimented</li>
+		</associatedMemes>
+		<comps>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>BattIePatch_Unarmed_Disapproved</thought>
+			</li>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>BattIePatch_Unarmed_Disapproved_Social</thought>
+			</li>
+		</comps>
+	</PreceptDef>
+
+	<!-- Thoughts -->
+
+	<ThoughtDef>
+		<defName>BattIePatch_Unarmed_Disapproved</defName>
+		<workerClass>BattIePatch_RegimentedMeme.ThoughtWorker_Precept_Armed</workerClass>
+		<producesMemoryThought>BattIePatch_Unarmed_Disapproved_Memory</producesMemoryThought>
+		<stages>
+			<li>
+				<label>not armed</label>
+				<description>I should be able to protect myself and all those who count on me.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>non-combatant</label>
+				<description>I have no taste for violence, even if everyone expects it of me.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>BattIePatch_Unarmed_Disapproved_Memory</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>wasn't armed</label>
+				<description>I should have had a weapon. I let them down.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+	<ThoughtDef>
+		<defName>BattIePatch_Unarmed_Disapproved_Social</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>BattIePatch_RegimentedMeme.ThoughtWorker_Precept_Armed_Social</workerClass>
+		<stages>
+			<li>
+				<label>not carrying a weapon</label>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

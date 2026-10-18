@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Tend Again\1.6\Assemblies\BattIePatch - Tend Again.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Tend Again\1.6\Source\BattIePatch - Tend Again\obj\Debug\BattIePatch - Tend Again.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Tend Again\1.6\Source\BattIePatch - Tend Again\obj\Debug\BattIePatch - Tend Again.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Tend Again\1.6\Source\BattIePatch - Tend Again\obj\Debug\BattIePatch - Tend Again.dll

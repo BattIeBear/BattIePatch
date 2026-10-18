@@ -5,8 +5,10 @@
 	<packageId>BattIeBear.BattIePatch.TendAgain</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
-	<description>V1.6
+	<description>
+V1.7
 
 Tired of trying to fight an infection and suddenly someone besides your main doctor tends for 0%? Suddenly get a harvest of healroot and want to redo some of those nasty wounds? Want to stave off the plague but you keep getting awful RNG?
 

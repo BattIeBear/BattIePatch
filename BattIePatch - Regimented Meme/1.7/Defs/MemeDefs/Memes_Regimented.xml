@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MemeDef>
+		<defName>BattIePatch_Regimented</defName>
+		<label>regimented</label>
+		<description>Each person has a part in society. The leaders must be capable, the followers must be loyal.</description>
+		<iconPath>UI/Memes/Regimented</iconPath>
+		<allowDuringTutorial>false</allowDuringTutorial>
+		<groupDef>Individualism</groupDef>
+		<impact>1</impact>
+		<requireOne>
+			<li>
+				<li>BattIePatch_NutrientPasteEating_Tolerable</li>
+			</li>
+			<li>
+				<li>BattIePatch_Corpses_Tolerable</li>
+			</li>
+			<li>
+				<li>BattIePatch_Barracks_Tolerable</li>
+			</li>
+			<li>
+				<li>Execution_DontCare</li>
+				<li>Execution_RespectedIfGuilty</li>
+				<li>Execution_Required</li>
+			</li>
+			<li>
+				<li>BattIePatch_Armed_Mandatory</li>
+			</li>
+			<li>
+				<li>BattIePatch_ChainOfCommand_Mandatory</li>
+			</li>
+		</requireOne>
+		<exclusionTags>
+			<li>Individualism</li>
+		</exclusionTags>
+		<generalRules>
+			<rulesStrings>
+				<li>memeAdjective->disciplined</li>
+				<li>memeAdjective->orderly</li>
+				<li>memeAdjective->solidarity</li>
+				<li>memeAdjective->unified</li>
+				<li>memeAdjective->structured</li>
+				<li>memeAdjective->regiment</li>
+				<li>memeConcept->duty</li>
+				<li>memeConcept->order</li>
+				<li>memeConcept->hierarchy</li>
+				<li>memeCreed->structure</li>
+				<li>memeCreed->discipline</li>
+				<li>memeCreed->force</li>
+				<li>memeCreed->unit</li>
+				<li>memeLeaderNoun->commander</li>
+				<li>memeLeaderNoun->marshal</li>
+				<li>memeLeaderNoun->overseer</li>
+				<li>memeMoralist->commissar</li>
+				<li>memeMoralist->chaplain</li>
+				<li>memeMoralist->overseer</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<rules>
+				<rulesStrings>
+					<!-- theist myth -->
+					<li>creation(tag=meme_BattIePatch_Regimented)        ->[deity0_name] carved the first people from stone, and told them to chose from among themselves a leader.</li>
+					<li>episode(uses=1,tag=meme_BattIePatch_Regimented)  ->[deity0_name] declared, "The leader must be an example to all. Let those that should follow, follow, and let those fit to lead, lead wisely."</li>
+					<!-- theist founder -->
+					<li>intro(tag=meme_BattIePatch_Regimented)           ->In the harsh landscape of [place_summary] [place_name], [memberNamePlural] learned to survive through obedience to their leaders, building altars to [deity0_name] shaped like towers of stone.</li>
+					<li>conflict(tag=meme_BattIePatch_Regimented)        ->The [foeLeader] sought to scatter the [memberNamePlural] by sending a horde of [foeSoldiers], but the [memberNamePlural] stood unmoved in formation, trusting in their neighbors' strength while relying on their own.</li>
+					<li>founderJoin(tag=meme_BattIePatch_Regimented)     ->A [place_job] named [founderName] had [foeLeader]'s spies executed as they attempted to sow dissent among the [memberNamePlural]. [founderName] then turned to the [memberNamePlural], telling them all to arm themselves as best they could.</li>
+					<li>victory(tag=meme_BattIePatch_Regimented)         ->Under [founderName]'s command, the [memberNamePlural] moved like a single body. Their lines did not break. Their banners did not fall. By the end of the day, the [foeLeader] was captured and sentenced to death by tribunal.</li>
+					<!-- ideological founder -->
+					<li>setup(tag=meme_BattIePatch_Regimented)           ->In a world of chaos and decay, [founderName] drafted rules to give life structure, and formed his followers into ranks. Through this, he gave the [memberNamePlural] purpose.</li>
+					<li>story(uses=1,tag=meme_BattIePatch_Regimented)    ->When a [memberName] refused a direct command, [founderName] demoted them publicly, saying, “Loyalty is measured in obedience.”</li>
+					<!-- ideological lesson -->
+					<li>lessonIntro(tag=meme_BattIePatch_Regimented)     ->A [place_job] thought they could disobey without consequence. I stripped [founder_objective] of title and weapon, and explained:</li>
+					<li>lesson(tag=meme_BattIePatch_Regimented)          ->without order, we fall one-by-one. With order, we are given purpose and protection alike</li>
+					<li>lessonReinforcement(tag=meme_BattIePatch_Regimented) ->Loyalty should not be only among friends or family, but to the structure that holds us all together. It is an honor to lead, yes, but it is just as great an honor to serve.</li>
+					<!-- archist -->
+					<li>archistBasis(tag=meme_BattIePatch_Regimented)    ->The archotechs are machine, operating in the purist form of binary.</li>
+					<li>archistFact(tag=meme_BattIePatch_Regimented)     ->The archotechs do not seek change or disorder, they wish to have all fall in line as a part of yet greater machines.</li>
+					<li>archistProphecy(tag=meme_BattIePatch_Regimented) ->[inTheEnd], the archotechs will select only those societies who operate as a single unit to ascend into integration with the god-machine.</li>
+					<!-- animist -->
+					<li>animistFact(tag=meme_BattIePatch_Regimented)     ->Every spirit does as it should. Winds move, but do not take form. Trees have form, but do not move. The fox can do both, but knows not to try to fly like a bird.</li>
+				</rulesStrings>
+			</rules>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<theme>order</theme>
+				<adjective>orderite</adjective>
+				<member>orderan</member>
+			</li>
+			<li>
+				<theme>discipline</theme>
+				<adjective>disciplinist</adjective>
+				<member>disciplinar</member>
+			</li>
+			<li>
+				<theme>structure</theme>
+				<adjective>structurist</adjective>
+				<member>structuran</member>
+			</li>
+			<li>
+				<theme>hierarchy</theme>
+				<adjective>hierarchist</adjective>
+				<member>hierarch</member>
+			</li>
+		</symbolPacks>
+		<styleItemTags>
+			<li>
+				<tag>Wild</tag>
+				<baseWeight>0</baseWeight>
+				<weightFactor>0</weightFactor>
+			</li>
+		</styleItemTags>
+	</MemeDef>
+</Defs>

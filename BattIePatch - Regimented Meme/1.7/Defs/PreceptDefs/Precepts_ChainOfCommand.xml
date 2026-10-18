@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Issues -->
+
+	<IssueDef>
+		<defName>BattIePatch_ChainOfCommand</defName>
+		<label>chain of command</label>
+		<iconPath>UI/Issues/Command</iconPath>
+	</IssueDef>
+
+	<!-- Precepts -->
+
+	<PreceptDef>
+		<defName>BattIePatch_ChainOfCommand_Mandatory</defName>
+		<issue>BattIePatch_ChainOfCommand</issue>
+		<label>mandatory</label>
+		<description>The chain of command is sacrosanct. It must never be broken.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>130</displayOrderInIssue>
+		<displayOrderInImpact>750</displayOrderInImpact>
+		<requiredMemes>
+			<li>BattIePatch_Regimented</li>
+		</requiredMemes>
+		<associatedMemes>
+			<li>BattIePatch_Regimented</li>
+		</associatedMemes>
+		<comps>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>BattIePatch_ChainOfCommand_Broken</thought>
+			</li>
+		</comps>
+	</PreceptDef>
+
+	<!-- Thoughts -->
+
+	<ThoughtDef>
+		<defName>BattIePatch_ChainOfCommand_Broken</defName>
+		<workerClass>BattIePatch_RegimentedMeme.ThoughtWorker_Precept_ChainOfCommand</workerClass>
+		<stages>
+			<li>
+				<label>Chain of command is strong</label>
+				<description>We have faith in our leadership. Together we are strong.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Chain of command is severed</label>
+				<description>We have no command to speak of. Without leadership, we are lost.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

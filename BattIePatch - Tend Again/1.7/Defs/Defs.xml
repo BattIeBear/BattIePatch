@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>BattIeBear_RetendPatient</defName>
+		<driverClass>BattIePatch_TendAgain.JobDriver_DoctorRetendPatient</driverClass>
+		<reportString>retending TargetA.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<suspendable>false</suspendable>
+	</JobDef>
+	
+	<WorkGiverDef>
+		<defName>BattIeBear_DoctorRetendPatient</defName>
+		<label>tend to patients with urgent needs</label>
+		<giverClass>BattIePatch_TendAgain.WorkGiver_DoctorRetendPatient</giverClass>
+		<workType>Doctor</workType>
+		<emergency>false</emergency>
+		<verb>retend to</verb>
+		<gerund>retending to</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<priorityInType>85</priorityInType>
+		<prioritizeSustains>false</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>
