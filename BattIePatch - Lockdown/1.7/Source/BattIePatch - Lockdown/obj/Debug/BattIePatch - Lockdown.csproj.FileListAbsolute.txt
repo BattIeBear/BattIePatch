@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\Assemblies\BattIePatch - Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.6\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.6\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.6\Source\BattIePatch - Lockdown\obj\Debug\BattIePatch - Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.6\Assemblies\BattIePatch - Lockdown.dll

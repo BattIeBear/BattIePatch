@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 This mod adds a button to all IEDs that allows you to detonate them at any time. Alternatively, has an option to require a drafted pawn to detonate them. The pawn will move near enough to the IED (distance can be changed in settings) to detonate it, and there is also an option where they will not detonate it if they are in danger of being harmed by the explosion.
 

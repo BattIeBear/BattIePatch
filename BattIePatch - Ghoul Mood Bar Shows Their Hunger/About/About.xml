@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 The mood bar being part of vanilla portraits is a massive improvement, however it is completely useless for the new type of pawn included in Anomaly: Ghouls.
 
