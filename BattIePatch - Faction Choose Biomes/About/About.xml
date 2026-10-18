@@ -24,11 +24,12 @@
 		</li>
 		<li>
 			<packageId>FCB.FactionChooseBiomes</packageId>
-			<displayName>Harmony</displayName>
+			<displayName>Faction choose biomes</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>V1.6
+	<description>
+V1.6
 
 Reimagines the Faction Choose Biomes mod to allow for more overlap between factions, with rougher factions typically being in harsher areas, while more peaceful factions are in gentler biomes.
 
