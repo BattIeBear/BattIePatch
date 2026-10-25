@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Assemblies\Debug\net10.0\SilenceIsGolden.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Assemblies\Debug\net10.0\SilenceIsGolden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Assemblies\Debug\net10.0\SilenceIsGolden.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\refint\SilenceIsGolden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceIsGolden.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\ref\SilenceIsGolden.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Psychic Silence is Golden\1.7\Source\SilenceIsGolden\obj\Debug\net10.0\SilenceI.1C32FE04.Up2Date
