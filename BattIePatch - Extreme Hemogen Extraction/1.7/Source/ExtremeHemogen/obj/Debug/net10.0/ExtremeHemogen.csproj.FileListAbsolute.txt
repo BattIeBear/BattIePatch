@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Assemblies\Debug\net10.0\ExtremeHemogen.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Assemblies\Debug\net10.0\ExtremeHemogen.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Assemblies\Debug\net10.0\ExtremeHemogen.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\refint\ExtremeHemogen.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeHemogen.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ref\ExtremeHemogen.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Extreme Hemogen Extraction\1.7\Source\ExtremeHemogen\obj\Debug\net10.0\ExtremeH.843CEC69.Up2Date
