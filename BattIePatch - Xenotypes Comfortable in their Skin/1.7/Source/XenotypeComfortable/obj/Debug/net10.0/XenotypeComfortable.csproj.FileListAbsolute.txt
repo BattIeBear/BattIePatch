@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Assemblies\Debug\net10.0\XenotypeComfortable.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Assemblies\Debug\net10.0\XenotypeComfortable.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Assemblies\Debug\net10.0\XenotypeComfortable.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\refint\XenotypeComfortable.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\XenotypeComfortable.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\ref\XenotypeComfortable.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Xenotypes Comfortable in their Skin\1.7\Source\XenotypeComfortable\obj\Debug\net10.0\Xenotype.5CA4D611.Up2Date
