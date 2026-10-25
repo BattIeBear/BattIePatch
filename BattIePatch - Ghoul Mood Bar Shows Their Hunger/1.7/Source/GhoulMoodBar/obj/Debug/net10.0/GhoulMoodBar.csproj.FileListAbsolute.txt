@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Assemblies\Debug\net10.0\GhoulMoodBar.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Assemblies\Debug\net10.0\GhoulMoodBar.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Assemblies\Debug\net10.0\GhoulMoodBar.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\refint\GhoulMoodBar.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoodBar.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\ref\GhoulMoodBar.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Mood Bar Shows Their Hunger\1.7\Source\GhoulMoodBar\obj\Debug\net10.0\GhoulMoo.00E4BDFA.Up2Date
