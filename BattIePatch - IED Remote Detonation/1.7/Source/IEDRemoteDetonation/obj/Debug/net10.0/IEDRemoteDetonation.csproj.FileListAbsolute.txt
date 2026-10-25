@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Assemblies\Debug\net10.0\IEDRemoteDetonation.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Assemblies\Debug\net10.0\IEDRemoteDetonation.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Assemblies\Debug\net10.0\IEDRemoteDetonation.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\refint\IEDRemoteDetonation.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemoteDetonation.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\ref\IEDRemoteDetonation.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - IED Remote Detonation\1.7\Source\IEDRemoteDetonation\obj\Debug\net10.0\IEDRemot.C2E3680E.Up2Date
