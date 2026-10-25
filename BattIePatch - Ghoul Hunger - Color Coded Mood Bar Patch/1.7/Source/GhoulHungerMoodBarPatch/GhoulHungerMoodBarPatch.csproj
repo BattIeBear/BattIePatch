@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle>BattIePatch_GhoulHungerColorCodedMoodBarPatch</AssemblyTitle>
+    <RootNamespace>BattIePatch_GhoulHungerColorCodedMoodBarPatch</RootNamespace>
+    <BaseOutputPath>C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Assemblies</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ColoredMoodBar17">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2006605356\1.7\Assemblies\ColoredMoodBar17.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>..\..\..\..\..\UnityStubs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Waylith">
+      <HintPath>..\..\..\..\..\Waylith.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

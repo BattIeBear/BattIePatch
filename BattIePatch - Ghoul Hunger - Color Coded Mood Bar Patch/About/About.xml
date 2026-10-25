@@ -6,6 +6,7 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -26,7 +27,7 @@
 		</li>
 	</modDependencies>
 	<description>
-V1.6
+V1.7
 
 The mood bar being part of vanilla portraits is a massive improvement, however it is completely useless for the new type of pawn included in Anomaly: Ghouls, and this problem carries over to the users of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2006605356]CM Color Coded Mood Bar[/url].
 

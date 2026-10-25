@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Assemblies\Debug\net10.0\GhoulHungerMoodBarPatch.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Assemblies\Debug\net10.0\GhoulHungerMoodBarPatch.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Assemblies\Debug\net10.0\GhoulHungerMoodBarPatch.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\refint\GhoulHungerMoodBarPatch.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHungerMoodBarPatch.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\ref\GhoulHungerMoodBarPatch.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Ghoul Hunger - Color Coded Mood Bar Patch\1.7\Source\GhoulHungerMoodBarPatch\obj\Debug\net10.0\GhoulHun.8300C52C.Up2Date
