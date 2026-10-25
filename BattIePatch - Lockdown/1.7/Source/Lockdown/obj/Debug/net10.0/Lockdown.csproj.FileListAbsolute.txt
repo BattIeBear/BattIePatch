@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Assemblies\Debug\net10.0\Lockdown.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Assemblies\Debug\net10.0\Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Assemblies\Debug\net10.0\Lockdown.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\refint\Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\ref\Lockdown.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Lockdown\1.7\Source\Lockdown\obj\Debug\net10.0\Lockdown.csproj.Up2Date
