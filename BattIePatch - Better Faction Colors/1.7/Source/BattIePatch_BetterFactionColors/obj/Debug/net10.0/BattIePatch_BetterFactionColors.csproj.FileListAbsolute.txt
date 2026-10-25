@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Assemblies\Debug\net10.0\BattIePatch_BetterFactionColors.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Assemblies\Debug\net10.0\BattIePatch_BetterFactionColors.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Assemblies\Debug\net10.0\BattIePatch_BetterFactionColors.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePa.3DAF8AFC.Up2Date
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\refint\BattIePatch_BetterFactionColors.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\BattIePatch_BetterFactionColors.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattIePatch - Better Faction Colors\1.7\Source\BattIePatch_BetterFactionColors\obj\Debug\net10.0\ref\BattIePatch_BetterFactionColors.dll
