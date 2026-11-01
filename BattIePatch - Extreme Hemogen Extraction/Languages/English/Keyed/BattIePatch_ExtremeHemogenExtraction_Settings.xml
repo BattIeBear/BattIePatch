@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattIePatch_ExtremeHemogenExtraction_ModName>BattIePatch - Extreme Hemogen Extraction</BattIePatch_ExtremeHemogenExtraction_ModName>
+	<BattIePatch_ExtremeHemogenExtraction_TopWarning>Changing these options will require restarting the game to apply.</BattIePatch_ExtremeHemogenExtraction_TopWarning>
+	<BattIePatch_ExtremeHemogenExtraction_BottomWarning>Don't see the options you chose? Restart your game!</BattIePatch_ExtremeHemogenExtraction_BottomWarning>
+
+	<BattIePatch_ExtremeHemogenExtraction_Label1>These give additional control over when the Extreme Hemogen Extraction will appear in-game:</BattIePatch_ExtremeHemogenExtraction_Label1>
+	<BattIePatch_ExtremeHemogenExtraction_RequiresBloodfeedingMeme>Requires Bloodfeeding Meme</BattIePatch_ExtremeHemogenExtraction_RequiresBloodfeedingMeme>
+	<BattIePatch_ExtremeHemogenExtraction_RequiresBloodfeedingMemeDesc>This setting will make it so that only ideologies with the Bloodfeeding meme can perform this action.\n\nIf you don't have the Ideology DLC, this setting won't do anything and the option will always be displayed.</BattIePatch_ExtremeHemogenExtraction_RequiresBloodfeedingMemeDesc>
+
+	<BattIePatch_ExtremeHemogenExtraction_Label2>These give additional options when it comes to transfusing hemogen:</BattIePatch_ExtremeHemogenExtraction_Label2>
+	<BattIePatch_ExtremeHemogenExtraction_UseHemogenImage>Transfusion uses Hemogen Icon</BattIePatch_ExtremeHemogenExtraction_UseHemogenImage>
+	<BattIePatch_ExtremeHemogenExtraction_UseHemogenImageDesc>The Transfuse Hemogen medical bill will use the hemogen pack symbol, instead of being blank. This is a personal preference.</BattIePatch_ExtremeHemogenExtraction_UseHemogenImageDesc>
+	<BattIePatch_ExtremeHemogenExtraction_TransfuseOneNotStack>Transfusion uses only One Pack</BattIePatch_ExtremeHemogenExtraction_TransfuseOneNotStack>
+	<BattIePatch_ExtremeHemogenExtraction_TransfuseOneNotStackDesc>The Transfuse Hemogen medical bill usually uses as many hemogen packs as needed. This will make them infuse one pack at a time instead. Mainly for those who want to manage their resources.</BattIePatch_ExtremeHemogenExtraction_TransfuseOneNotStackDesc>
+
+</LanguageData>
