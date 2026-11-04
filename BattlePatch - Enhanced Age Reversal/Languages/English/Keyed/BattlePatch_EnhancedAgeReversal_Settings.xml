@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BattlePatch_EnhancedAgeReversal_ModName>BattIePatch - Enhanced Age Reversal</BattlePatch_EnhancedAgeReversal_ModName>
+	<BattlePatch_EnhancedAgeReversal_TopWarning>Changing these options will require restarting the game to apply.</BattlePatch_EnhancedAgeReversal_TopWarning>
+	<BattlePatch_EnhancedAgeReversal_BottomWarning>Don't see the options you chose? Restart your game!</BattlePatch_EnhancedAgeReversal_BottomWarning>
+	
+	<BattlePatch_EnhancedAgeReversal_RangeSlider>Age Reversal Multiplier: </BattlePatch_EnhancedAgeReversal_RangeSlider>
+	<BattlePatch_EnhancedAgeReversal_RangeSliderDesc>How many years each Age Reversal Cycle will remove. Vanilla is 1 year per cycle, default for this mod is 2.</BattlePatch_EnhancedAgeReversal_RangeSliderDesc>
+
+</LanguageData>

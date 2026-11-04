@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.6\Assemblies\EnhancedAgeReversal.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.6\Source\EnhancedAgeReversal\obj\Debug\EnhancedAgeReversal.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.6\Source\EnhancedAgeReversal\obj\Debug\EnhancedAgeReversal.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.6\Source\EnhancedAgeReversal\obj\Debug\EnhancedAgeReversal.dll

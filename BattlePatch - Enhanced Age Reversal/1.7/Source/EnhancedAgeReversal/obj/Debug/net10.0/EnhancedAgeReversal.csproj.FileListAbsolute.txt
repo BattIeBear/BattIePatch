@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Assemblies\Debug\net10.0\EnhancedAgeReversal.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Assemblies\Debug\net10.0\EnhancedAgeReversal.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Assemblies\Debug\net10.0\EnhancedAgeReversal.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\refint\EnhancedAgeReversal.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\EnhancedAgeReversal.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\ref\EnhancedAgeReversal.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BattlePatch - Enhanced Age Reversal\1.7\Source\EnhancedAgeReversal\obj\Debug\net10.0\Enhanced.0BEF037A.Up2Date
